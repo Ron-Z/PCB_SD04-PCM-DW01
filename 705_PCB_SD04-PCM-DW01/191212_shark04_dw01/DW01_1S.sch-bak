@@ -1,0 +1,4274 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E609390
+P 9025 2200
+F 0 "IC?" H 8675 2675 50  0000 C CNN
+F 1 "DW01A" H 9025 2425 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H 9025 2200 50  0001 L BNN
+F 3 "C351410" H 9025 2200 50  0001 L BNN
+F 4 "DW01A" H 9025 2200 50  0001 L BNN "Field4"
+F 5 "DW01A" H 9025 2200 50  0001 L BNN "Field5"
+	1    9025 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E609397
+P 8000 1650
+F 0 "R?" V 7950 1775 45  0000 C CNN
+F 1 "100R" V 8025 1800 45  0000 C CNN
+F 2 "0805" H 8000 1800 20  0001 C CNN
+F 3 "" H 8000 1650 60  0001 C CNN
+F 4 " " H 7850 1800 60  0000 C CNN "Field4"
+	1    8000 1650
+	0    1    1    0   
+$EndComp
+NoConn ~ 8425 2200
+$Comp
+L Device:C C?
+U 1 1 5E60939E
+P 8000 2200
+F 0 "C?" H 8115 2246 50  0000 L CNN
+F 1 "0.1uF" H 8115 2155 50  0000 L CNN
+F 2 "" H 8038 2050 50  0001 C CNN
+F 3 "~" H 8000 2200 50  0001 C CNN
+	1    8000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2050 8000 1900
+Connection ~ 8000 1900
+Wire Wire Line
+	8000 2350 8000 2500
+Connection ~ 8000 2500
+Wire Wire Line
+	8000 1900 8425 1900
+Wire Wire Line
+	7325 2700 8000 2700
+$Comp
+L FS8205A:FS8205A Q?
+U 1 1 5E60BB61
+P 10450 2025
+F 0 "Q?" H 10694 2071 50  0000 L CNN
+F 1 "FS8205A" H 10694 1980 50  0000 L CNN
+F 2 "FS8205A:SOP65P640X120-8N" H 10450 2025 50  0001 L BNN
+F 3 "Fortune Semiconductor" H 10450 2025 50  0001 L BNN
+F 4 "1.2mm" H 10450 2025 50  0001 L BNN "字段4"
+F 5 "IPC 7351B" H 10450 2025 50  0001 L BNN "字段5"
+F 6 "1.7" H 10450 2025 50  0001 L BNN "字段6"
+	1    10450 2025
+	1    0    0    -1  
+$EndComp
+Text GLabel 7325 1425 0    50   Input ~ 0
+B+
+Text GLabel 7325 2700 0    50   Input ~ 0
+B-
+Text GLabel 9025 1425 2    50   Input ~ 0
+P+
+Wire Wire Line
+	8000 2500 8425 2500
+Wire Wire Line
+	7325 1425 8000 1425
+Wire Wire Line
+	8000 1425 9025 1425
+Connection ~ 8000 1425
+Wire Wire Line
+	8000 1850 8000 1900
+Wire Wire Line
+	8000 1450 8000 1425
+NoConn ~ 10650 2025
+Wire Wire Line
+	9850 2325 9850 2500
+Wire Wire Line
+	9850 2500 9625 2500
+Wire Wire Line
+	9850 2325 10250 2325
+Wire Wire Line
+	9625 2200 9850 2200
+Wire Wire Line
+	9850 2200 9850 1925
+Wire Wire Line
+	9850 1925 10250 1925
+Wire Wire Line
+	10450 2425 10450 2700
+Wire Wire Line
+	10450 2700 8000 2700
+Wire Wire Line
+	8000 2700 8000 2500
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E616D21
+P 9625 1675
+F 0 "R?" V 9575 1800 45  0000 C CNN
+F 1 "1K" V 9650 1825 45  0000 C CNN
+F 2 "0805" H 9625 1825 20  0001 C CNN
+F 3 "" H 9625 1675 60  0001 C CNN
+F 4 " " H 9475 1825 60  0000 C CNN "Field4"
+	1    9625 1675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9625 1900 9625 1875
+Wire Wire Line
+	10450 1625 10450 1425
+Wire Wire Line
+	10450 1425 9625 1425
+Wire Wire Line
+	9625 1425 9625 1475
+Wire Wire Line
+	9625 1425 9550 1425
+Connection ~ 9625 1425
+Text GLabel 9550 1425 0    50   Input ~ 0
+P-
+Connection ~ 8000 2700
+$Comp
+L HY2213-BB3A:HY2213-BB3A U?
+U 1 1 5E61DCC8
+P 5500 2000
+F 0 "U?" H 5700 2015 50  0000 C CNN
+F 1 "HY2213-BB3A" H 5700 1924 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5300 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf" H 5300 1900 50  0001 C CNN
+	1    5500 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SLS2302:SLS2302 U?
+U 1 1 5E62A81C
+P 4450 2250
+F 0 "U?" H 4654 2296 50  0000 L CNN
+F 1 "SLS2302" H 4654 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4650 2350 50  0001 C CNN
+F 3 "~" H 4450 2250 50  0001 C CNN
+	1    4450 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E62EE9C
+P 4650 1675
+F 0 "R?" V 4600 1800 45  0000 C CNN
+F 1 "150R" V 4675 1825 45  0000 C CNN
+F 2 "0805" H 4650 1825 20  0001 C CNN
+F 3 "" H 4650 1675 60  0001 C CNN
+F 4 " " H 4500 1825 60  0000 C CNN "Field4"
+	1    4650 1675
+	0    -1   1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E6305F7
+P 4350 1675
+F 0 "R?" V 4300 1800 45  0000 C CNN
+F 1 "150R" V 4375 1825 45  0000 C CNN
+F 2 "0805" H 4350 1825 20  0001 C CNN
+F 3 "" H 4350 1675 60  0001 C CNN
+F 4 " " H 4200 1825 60  0000 C CNN "Field4"
+	1    4350 1675
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4650 1950 4650 1875
+Wire Wire Line
+	4350 1475 4350 1375
+Wire Wire Line
+	4650 1475 4650 1375
+Wire Wire Line
+	4350 2450 4350 2650
+Wire Wire Line
+	4350 2650 5925 2650
+Wire Wire Line
+	5925 2650 5925 2400
+Wire Wire Line
+	5925 2400 5850 2400
+$Comp
+L Device:C C?
+U 1 1 5E63454D
+P 6275 2450
+F 0 "C?" H 6390 2496 50  0000 L CNN
+F 1 "0.1uF" H 6390 2405 50  0000 L CNN
+F 2 "" H 6313 2300 50  0001 C CNN
+F 3 "~" H 6275 2450 50  0001 C CNN
+	1    6275 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E635743
+P 6275 1650
+F 0 "R?" V 6225 1775 45  0000 C CNN
+F 1 "100R" V 6300 1800 45  0000 C CNN
+F 2 "0805" H 6275 1800 20  0001 C CNN
+F 3 "" H 6275 1650 60  0001 C CNN
+F 4 " " H 6125 1800 60  0000 C CNN "Field4"
+	1    6275 1650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6275 2250 6275 2300
+Wire Wire Line
+	6275 2600 6275 2650
+Wire Wire Line
+	6275 2250 6275 1850
+Connection ~ 6275 2250
+Wire Wire Line
+	6275 1450 6275 1375
+Wire Wire Line
+	4650 1375 4350 1375
+Wire Wire Line
+	4350 1875 4350 1950
+Wire Wire Line
+	4650 1950 4350 1950
+Connection ~ 4350 1950
+Wire Wire Line
+	4350 1950 4350 2050
+Wire Wire Line
+	4750 2250 4650 2250
+Text GLabel 4125 1375 0    50   Input ~ 0
+B+
+Text GLabel 4125 2650 0    50   Input ~ 0
+B-
+Connection ~ 4350 2650
+Connection ~ 4350 1375
+Wire Wire Line
+	6275 1375 4650 1375
+Connection ~ 4650 1375
+Wire Wire Line
+	6275 2250 5850 2250
+Wire Wire Line
+	6275 2650 5925 2650
+Connection ~ 5925 2650
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E65E72C
+P 3750 1600
+F 0 "R?" V 3700 1725 45  0000 C CNN
+F 1 "100R" V 3775 1750 45  0000 C CNN
+F 2 "0805" H 3750 1750 20  0001 C CNN
+F 3 "" H 3750 1600 60  0001 C CNN
+F 4 " " H 3600 1750 60  0000 C CNN "Field4"
+	1    3750 1600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E65E733
+P 3750 2000
+F 0 "C?" H 3865 2046 50  0000 L CNN
+F 1 "0.1uF" H 3865 1955 50  0000 L CNN
+F 2 "" H 3788 1850 50  0001 C CNN
+F 3 "~" H 3750 2000 50  0001 C CNN
+	1    3750 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1850 3325 1850
+Connection ~ 3750 1375
+Wire Wire Line
+	3750 1800 3750 1850
+Wire Wire Line
+	3750 1400 3750 1375
+Connection ~ 3750 1850
+Wire Wire Line
+	3325 2050 3400 2050
+Wire Wire Line
+	3325 2250 3400 2250
+Wire Wire Line
+	3750 2250 3750 2650
+Connection ~ 3750 2250
+Wire Wire Line
+	3750 2150 3750 2250
+$Comp
+L DW01A:DW01A-G IC?
+U 1 1 5E690EBB
+P 2725 1800
+F 0 "IC?" H 2975 1975 50  0000 C CNN
+F 1 "DW01A-G" H 2975 1884 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2775 1850 50  0001 C CNN
+F 3 "" H 2775 1850 50  0001 C CNN
+	1    2725 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2050 3400 2250
+Connection ~ 3400 2250
+Wire Wire Line
+	3400 2250 3750 2250
+$Comp
+L Transistor_BJT:MMBT3906 Q?
+U 1 1 5E69D4CD
+P 1850 2275
+F 0 "Q?" H 1700 2400 50  0000 L CNN
+F 1 "MMBT3906" H 1475 2475 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2050 2200 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 1850 2275 50  0001 L CNN
+	1    1850 2275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:MMBT3906 Q?
+U 1 1 5E6A2883
+P 1850 1800
+F 0 "Q?" H 1725 1925 50  0000 L CNN
+F 1 "MMBT3906" H 1450 2000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2050 1725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 1850 1800 50  0001 L CNN
+	1    1850 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 2000 1750 2050
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E6A7E15
+P 2325 1800
+F 0 "R?" H 2375 1900 45  0000 C CNN
+F 1 "510K" H 2325 1700 45  0000 C CNN
+F 2 "0805" H 2325 1950 20  0001 C CNN
+F 3 "" H 2325 1800 60  0001 C CNN
+F 4 " " H 2175 1950 60  0000 C CNN "Field4"
+	1    2325 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E6A98E5
+P 2325 2275
+F 0 "R?" H 2375 2375 45  0000 C CNN
+F 1 "510K" H 2325 2175 45  0000 C CNN
+F 2 "0805" H 2325 2425 20  0001 C CNN
+F 3 "" H 2325 2275 60  0001 C CNN
+F 4 " " H 2175 2425 60  0000 C CNN "Field4"
+	1    2325 2275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1800 2125 1800
+Wire Wire Line
+	2050 2275 2125 2275
+Wire Wire Line
+	2525 2275 2525 2150
+Wire Wire Line
+	2525 2150 2625 2150
+Wire Wire Line
+	2525 1800 2525 1950
+Wire Wire Line
+	2525 1950 2625 1950
+Wire Wire Line
+	1750 2050 1500 2050
+Wire Wire Line
+	1500 2050 1500 1375
+Connection ~ 1750 2050
+Wire Wire Line
+	1750 2050 1750 2075
+Wire Wire Line
+	1750 1600 1750 1500
+Wire Wire Line
+	1750 1500 1000 1500
+Wire Wire Line
+	1000 1500 1000 1800
+Wire Wire Line
+	1750 2475 1275 2475
+Wire Wire Line
+	1275 2475 1275 2750
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E6B619F
+P 1000 2000
+F 0 "R?" V 1050 2100 45  0000 C CNN
+F 1 "1M" V 950 2100 45  0000 C CNN
+F 2 "0805" H 1000 2150 20  0001 C CNN
+F 3 "" H 1000 2000 60  0001 C CNN
+F 4 " " H 850 2150 60  0000 C CNN "Field4"
+	1    1000 2000
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E6B82F8
+P 1275 2950
+F 0 "R?" V 1325 3050 45  0000 C CNN
+F 1 "1M" V 1225 3050 45  0000 C CNN
+F 2 "0805" H 1275 3100 20  0001 C CNN
+F 3 "" H 1275 2950 60  0001 C CNN
+F 4 " " H 1125 3100 60  0000 C CNN "Field4"
+	1    1275 2950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3750 2650 4350 2650
+Wire Wire Line
+	3750 1375 4350 1375
+Wire Wire Line
+	1500 1375 3750 1375
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A4135
+P -8350 -4450
+AR Path="/5E7A4135" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4135" Ref="IC?"  Part="1" 
+F 0 "IC?" H -8700 -3975 50  0000 C CNN
+F 1 "DW01A" H -8350 -4225 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -8350 -4450 50  0001 L BNN
+F 3 "C351410" H -8350 -4450 50  0001 L BNN
+F 4 "DW01A" H -8350 -4450 50  0001 L BNN "Field4"
+F 5 "DW01A" H -8350 -4450 50  0001 L BNN "Field5"
+	1    -8350 -4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A413C
+P -9650 -4750
+AR Path="/5E7A413C" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A413C" Ref="R?"  Part="1" 
+F 0 "R?" H -9675 -4575 45  0000 C CNN
+F 1 "100R" H -9650 -4650 45  0000 C CNN
+F 2 "0805" H -9650 -4600 20  0001 C CNN
+F 3 "" H -9650 -4750 60  0001 C CNN
+F 4 " " H -9650 -4629 60  0000 C CNN "Field4"
+	1    -9650 -4750
+	1    0    0    -1  
+$EndComp
+NoConn ~ -8950 -4450
+$Comp
+L Device:C C?
+U 1 1 5E7A4143
+P -9375 -4450
+AR Path="/5E7A4143" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4143" Ref="C?"  Part="1" 
+F 0 "C?" H -9260 -4404 50  0000 L CNN
+F 1 "0.1uF" H -9260 -4495 50  0000 L CNN
+F 2 "" H -9337 -4600 50  0001 C CNN
+F 3 "~" H -9375 -4450 50  0001 C CNN
+	1    -9375 -4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 -4750 -9375 -4750
+Wire Wire Line
+	-9375 -4600 -9375 -4750
+Connection ~ -9375 -4750
+Wire Wire Line
+	-9375 -4300 -9375 -4150
+Connection ~ -9375 -4150
+Wire Wire Line
+	-9375 -4750 -8950 -4750
+Wire Wire Line
+	-9375 -4150 -9025 -4150
+Wire Wire Line
+	-9025 -4150 -9025 -5025
+Wire Wire Line
+	-9025 -5025 -7625 -5025
+Wire Wire Line
+	-7625 -5025 -7625 -4750
+Wire Wire Line
+	-7625 -4750 -7750 -4750
+Connection ~ -9025 -4150
+Wire Wire Line
+	-9025 -4150 -8950 -4150
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4156
+P -7000 -4175
+AR Path="/5E7A4156" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4156" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 -4050 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -6775 -4350 50  0000 L CNN
+F 2 "" H -6800 -4075 50  0001 C CNN
+F 3 "~" H -7000 -4175 50  0001 C CNN
+	1    -7000 -4175
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A415D
+P -7525 -3975
+AR Path="/5E7A415D" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A415D" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 -3800 45  0000 C CNN
+F 1 "510K" H -7525 -3875 45  0000 C CNN
+F 2 "0805" H -7525 -3825 20  0001 C CNN
+F 3 "" H -7525 -3975 60  0001 C CNN
+F 4 " " H -7525 -3854 60  0000 C CNN "Field4"
+	1    -7525 -3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 -3975 -7725 -3975
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4164
+P -7000 -4775
+AR Path="/5E7A4164" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4164" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 -4625 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -6763 -4775 50  0000 C CNN
+F 2 "" H -6800 -4675 50  0001 C CNN
+F 3 "~" H -7000 -4775 50  0001 C CNN
+	1    -7000 -4775
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A416B
+P -7525 -4450
+AR Path="/5E7A416B" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A416B" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 -4275 45  0000 C CNN
+F 1 "510K" H -7525 -4350 45  0000 C CNN
+F 2 "0805" H -7525 -4300 20  0001 C CNN
+F 3 "" H -7525 -4450 60  0001 C CNN
+F 4 " " H -7525 -4329 60  0000 C CNN "Field4"
+	1    -7525 -4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 -4450 -7725 -4450
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4173
+P -6350 -4150
+AR Path="/5E7A4173" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4173" Ref="R?"  Part="1" 
+F 0 "R?" H -6375 -3975 45  0000 C CNN
+F 1 "1M" H -6350 -4050 45  0000 C CNN
+F 2 "0805" H -6350 -4000 20  0001 C CNN
+F 3 "" H -6350 -4150 60  0001 C CNN
+F 4 " " H -6350 -4029 60  0000 C CNN "Field4"
+	1    -6350 -4150
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A417A
+P -6675 -3700
+AR Path="/5E7A417A" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A417A" Ref="R?"  Part="1" 
+F 0 "R?" H -6700 -3525 45  0000 C CNN
+F 1 "1M" H -6675 -3600 45  0000 C CNN
+F 2 "0805" H -6675 -3550 20  0001 C CNN
+F 3 "" H -6675 -3700 60  0001 C CNN
+F 4 " " H -6675 -3579 60  0000 C CNN "Field4"
+	1    -6675 -3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9850 -5150 -9850 -4750
+Wire Wire Line
+	-10050 -4150 -9850 -4150
+Wire Wire Line
+	-6800 -4875 -6350 -4875
+Wire Wire Line
+	-9850 -5150 -7325 -5150
+Wire Wire Line
+	-10050 -5150 -9850 -5150
+Wire Wire Line
+	-7000 -4450 -7000 -4575
+Wire Wire Line
+	-7325 -4875 -7325 -5150
+Wire Wire Line
+	-6350 -4875 -6350 -4350
+Wire Wire Line
+	-7750 -4150 -7750 -3975
+Wire Wire Line
+	-6800 -4275 -6675 -4275
+Wire Wire Line
+	-7325 -3975 -7000 -3975
+Wire Wire Line
+	-7325 -4875 -7200 -4875
+Wire Wire Line
+	-7325 -4450 -7000 -4450
+Wire Wire Line
+	-7325 -4275 -7200 -4275
+Connection ~ -7325 -4875
+Wire Wire Line
+	-6675 -4275 -6675 -3900
+Wire Wire Line
+	-6675 -3500 -6675 -2700
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A4193
+P -3675 -4350
+AR Path="/5E7A4193" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4193" Ref="IC?"  Part="1" 
+F 0 "IC?" H -4025 -3875 50  0000 C CNN
+F 1 "DW01A" H -3675 -4125 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -3675 -4350 50  0001 L BNN
+F 3 "C351410" H -3675 -4350 50  0001 L BNN
+F 4 "DW01A" H -3675 -4350 50  0001 L BNN "Field4"
+F 5 "DW01A" H -3675 -4350 50  0001 L BNN "Field5"
+	1    -3675 -4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A419A
+P -4975 -4650
+AR Path="/5E7A419A" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A419A" Ref="R?"  Part="1" 
+F 0 "R?" H -5000 -4475 45  0000 C CNN
+F 1 "100R" H -4975 -4550 45  0000 C CNN
+F 2 "0805" H -4975 -4500 20  0001 C CNN
+F 3 "" H -4975 -4650 60  0001 C CNN
+F 4 " " H -4975 -4529 60  0000 C CNN "Field4"
+	1    -4975 -4650
+	1    0    0    -1  
+$EndComp
+NoConn ~ -4275 -4350
+$Comp
+L Device:C C?
+U 1 1 5E7A41A1
+P -4700 -4350
+AR Path="/5E7A41A1" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41A1" Ref="C?"  Part="1" 
+F 0 "C?" H -4585 -4304 50  0000 L CNN
+F 1 "0.1uF" H -4585 -4395 50  0000 L CNN
+F 2 "" H -4662 -4500 50  0001 C CNN
+F 3 "~" H -4700 -4350 50  0001 C CNN
+	1    -4700 -4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4775 -4650 -4700 -4650
+Wire Wire Line
+	-4700 -4500 -4700 -4650
+Connection ~ -4700 -4650
+Wire Wire Line
+	-4700 -4200 -4700 -4050
+Connection ~ -4700 -4050
+Wire Wire Line
+	-4700 -4650 -4275 -4650
+Wire Wire Line
+	-4700 -4050 -4350 -4050
+Wire Wire Line
+	-4350 -4050 -4350 -4925
+Wire Wire Line
+	-4350 -4925 -2950 -4925
+Wire Wire Line
+	-2950 -4925 -2950 -4650
+Wire Wire Line
+	-2950 -4650 -3075 -4650
+Connection ~ -4350 -4050
+Wire Wire Line
+	-4350 -4050 -4275 -4050
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A41B4
+P -2325 -4075
+AR Path="/5E7A41B4" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41B4" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 -3950 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -2100 -4250 50  0000 L CNN
+F 2 "" H -2125 -3975 50  0001 C CNN
+F 3 "~" H -2325 -4075 50  0001 C CNN
+	1    -2325 -4075
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A41BB
+P -2850 -3875
+AR Path="/5E7A41BB" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41BB" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 -3700 45  0000 C CNN
+F 1 "510K" H -2850 -3775 45  0000 C CNN
+F 2 "0805" H -2850 -3725 20  0001 C CNN
+F 3 "" H -2850 -3875 60  0001 C CNN
+F 4 " " H -2850 -3754 60  0000 C CNN "Field4"
+	1    -2850 -3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 -3875 -3050 -3875
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A41C2
+P -2325 -4675
+AR Path="/5E7A41C2" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41C2" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 -4525 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -2088 -4675 50  0000 C CNN
+F 2 "" H -2125 -4575 50  0001 C CNN
+F 3 "~" H -2325 -4675 50  0001 C CNN
+	1    -2325 -4675
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A41C9
+P -2850 -4350
+AR Path="/5E7A41C9" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41C9" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 -4175 45  0000 C CNN
+F 1 "510K" H -2850 -4250 45  0000 C CNN
+F 2 "0805" H -2850 -4200 20  0001 C CNN
+F 3 "" H -2850 -4350 60  0001 C CNN
+F 4 " " H -2850 -4229 60  0000 C CNN "Field4"
+	1    -2850 -4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 -4350 -3050 -4350
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A41D1
+P -1675 -4050
+AR Path="/5E7A41D1" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41D1" Ref="R?"  Part="1" 
+F 0 "R?" H -1700 -3875 45  0000 C CNN
+F 1 "1M" H -1675 -3950 45  0000 C CNN
+F 2 "0805" H -1675 -3900 20  0001 C CNN
+F 3 "" H -1675 -4050 60  0001 C CNN
+F 4 " " H -1675 -3929 60  0000 C CNN "Field4"
+	1    -1675 -4050
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A41D8
+P -2000 -3600
+AR Path="/5E7A41D8" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41D8" Ref="R?"  Part="1" 
+F 0 "R?" H -2025 -3425 45  0000 C CNN
+F 1 "1M" H -2000 -3500 45  0000 C CNN
+F 2 "0805" H -2000 -3450 20  0001 C CNN
+F 3 "" H -2000 -3600 60  0001 C CNN
+F 4 " " H -2000 -3479 60  0000 C CNN "Field4"
+	1    -2000 -3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5175 -5050 -5175 -4650
+Wire Wire Line
+	-2125 -4775 -1675 -4775
+Wire Wire Line
+	-5175 -5050 -2650 -5050
+Wire Wire Line
+	-5375 -5050 -5175 -5050
+Wire Wire Line
+	-2325 -4350 -2325 -4475
+Wire Wire Line
+	-2650 -4775 -2650 -5050
+Wire Wire Line
+	-1675 -4775 -1675 -4250
+Wire Wire Line
+	-3075 -4050 -3075 -3875
+Wire Wire Line
+	-2125 -4175 -2000 -4175
+Wire Wire Line
+	-2650 -3875 -2325 -3875
+Wire Wire Line
+	-2650 -4775 -2525 -4775
+Wire Wire Line
+	-2650 -4350 -2325 -4350
+Wire Wire Line
+	-2650 -4175 -2525 -4175
+Connection ~ -2650 -4775
+Wire Wire Line
+	-2000 -4175 -2000 -3800
+Wire Wire Line
+	-2000 -3400 -2000 -2600
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A41F0
+P -8350 -2875
+AR Path="/5E7A41F0" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41F0" Ref="IC?"  Part="1" 
+F 0 "IC?" H -8700 -2400 50  0000 C CNN
+F 1 "DW01A" H -8350 -2650 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -8350 -2875 50  0001 L BNN
+F 3 "C351410" H -8350 -2875 50  0001 L BNN
+F 4 "DW01A" H -8350 -2875 50  0001 L BNN "Field4"
+F 5 "DW01A" H -8350 -2875 50  0001 L BNN "Field5"
+	1    -8350 -2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A41F7
+P -9650 -3175
+AR Path="/5E7A41F7" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41F7" Ref="R?"  Part="1" 
+F 0 "R?" H -9675 -3000 45  0000 C CNN
+F 1 "100R" H -9650 -3075 45  0000 C CNN
+F 2 "0805" H -9650 -3025 20  0001 C CNN
+F 3 "" H -9650 -3175 60  0001 C CNN
+F 4 " " H -9650 -3054 60  0000 C CNN "Field4"
+	1    -9650 -3175
+	1    0    0    -1  
+$EndComp
+NoConn ~ -8950 -2875
+$Comp
+L Device:C C?
+U 1 1 5E7A41FE
+P -9375 -2875
+AR Path="/5E7A41FE" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A41FE" Ref="C?"  Part="1" 
+F 0 "C?" H -9260 -2829 50  0000 L CNN
+F 1 "0.1uF" H -9260 -2920 50  0000 L CNN
+F 2 "" H -9337 -3025 50  0001 C CNN
+F 3 "~" H -9375 -2875 50  0001 C CNN
+	1    -9375 -2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 -3175 -9375 -3175
+Wire Wire Line
+	-9375 -3025 -9375 -3175
+Connection ~ -9375 -3175
+Wire Wire Line
+	-9375 -2725 -9375 -2575
+Connection ~ -9375 -2575
+Wire Wire Line
+	-9375 -3175 -8950 -3175
+Wire Wire Line
+	-9375 -2575 -9025 -2575
+Wire Wire Line
+	-9025 -2575 -9025 -3450
+Wire Wire Line
+	-9025 -3450 -7625 -3450
+Wire Wire Line
+	-7625 -3450 -7625 -3175
+Wire Wire Line
+	-7625 -3175 -7750 -3175
+Connection ~ -9025 -2575
+Wire Wire Line
+	-9025 -2575 -8950 -2575
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4211
+P -7000 -2600
+AR Path="/5E7A4211" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4211" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 -2475 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -6775 -2775 50  0000 L CNN
+F 2 "" H -6800 -2500 50  0001 C CNN
+F 3 "~" H -7000 -2600 50  0001 C CNN
+	1    -7000 -2600
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4218
+P -7525 -2400
+AR Path="/5E7A4218" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4218" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 -2225 45  0000 C CNN
+F 1 "510K" H -7525 -2300 45  0000 C CNN
+F 2 "0805" H -7525 -2250 20  0001 C CNN
+F 3 "" H -7525 -2400 60  0001 C CNN
+F 4 " " H -7525 -2279 60  0000 C CNN "Field4"
+	1    -7525 -2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 -2400 -7725 -2400
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A421F
+P -7000 -3200
+AR Path="/5E7A421F" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A421F" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 -3050 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -6763 -3200 50  0000 C CNN
+F 2 "" H -6800 -3100 50  0001 C CNN
+F 3 "~" H -7000 -3200 50  0001 C CNN
+	1    -7000 -3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4226
+P -7525 -2875
+AR Path="/5E7A4226" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4226" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 -2700 45  0000 C CNN
+F 1 "510K" H -7525 -2775 45  0000 C CNN
+F 2 "0805" H -7525 -2725 20  0001 C CNN
+F 3 "" H -7525 -2875 60  0001 C CNN
+F 4 " " H -7525 -2754 60  0000 C CNN "Field4"
+	1    -7525 -2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 -2875 -7725 -2875
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A422E
+P -6350 -2575
+AR Path="/5E7A422E" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A422E" Ref="R?"  Part="1" 
+F 0 "R?" H -6375 -2400 45  0000 C CNN
+F 1 "1M" H -6350 -2475 45  0000 C CNN
+F 2 "0805" H -6350 -2425 20  0001 C CNN
+F 3 "" H -6350 -2575 60  0001 C CNN
+F 4 " " H -6350 -2454 60  0000 C CNN "Field4"
+	1    -6350 -2575
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4235
+P -6675 -2125
+AR Path="/5E7A4235" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4235" Ref="R?"  Part="1" 
+F 0 "R?" H -6700 -1950 45  0000 C CNN
+F 1 "1M" H -6675 -2025 45  0000 C CNN
+F 2 "0805" H -6675 -1975 20  0001 C CNN
+F 3 "" H -6675 -2125 60  0001 C CNN
+F 4 " " H -6675 -2004 60  0000 C CNN "Field4"
+	1    -6675 -2125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9850 -3575 -9850 -3175
+Wire Wire Line
+	-10050 -2575 -9850 -2575
+Wire Wire Line
+	-6800 -3300 -6350 -3300
+Wire Wire Line
+	-9850 -3575 -7325 -3575
+Wire Wire Line
+	-7000 -2875 -7000 -3000
+Wire Wire Line
+	-7325 -3300 -7325 -3575
+Wire Wire Line
+	-7750 -2575 -7750 -2400
+Wire Wire Line
+	-6800 -2700 -6675 -2700
+Wire Wire Line
+	-7325 -2400 -7000 -2400
+Wire Wire Line
+	-7325 -3300 -7200 -3300
+Wire Wire Line
+	-7325 -2875 -7000 -2875
+Wire Wire Line
+	-7325 -2700 -7200 -2700
+Connection ~ -7325 -3300
+Wire Wire Line
+	-6675 -2700 -6675 -2325
+Wire Wire Line
+	-6675 -1925 -6675 -1125
+Connection ~ -6675 -2700
+Wire Wire Line
+	-6350 -3950 -6350 -3300
+Connection ~ -6350 -3300
+Wire Wire Line
+	-6350 -3300 -6350 -2775
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A4250
+P -8350 -1300
+AR Path="/5E7A4250" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4250" Ref="IC?"  Part="1" 
+F 0 "IC?" H -8700 -825 50  0000 C CNN
+F 1 "DW01A" H -8350 -1075 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -8350 -1300 50  0001 L BNN
+F 3 "C351410" H -8350 -1300 50  0001 L BNN
+F 4 "DW01A" H -8350 -1300 50  0001 L BNN "Field4"
+F 5 "DW01A" H -8350 -1300 50  0001 L BNN "Field5"
+	1    -8350 -1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4257
+P -9650 -1600
+AR Path="/5E7A4257" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4257" Ref="R?"  Part="1" 
+F 0 "R?" H -9675 -1425 45  0000 C CNN
+F 1 "100R" H -9650 -1500 45  0000 C CNN
+F 2 "0805" H -9650 -1450 20  0001 C CNN
+F 3 "" H -9650 -1600 60  0001 C CNN
+F 4 " " H -9650 -1479 60  0000 C CNN "Field4"
+	1    -9650 -1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ -8950 -1300
+$Comp
+L Device:C C?
+U 1 1 5E7A425E
+P -9375 -1300
+AR Path="/5E7A425E" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A425E" Ref="C?"  Part="1" 
+F 0 "C?" H -9260 -1254 50  0000 L CNN
+F 1 "0.1uF" H -9260 -1345 50  0000 L CNN
+F 2 "" H -9337 -1450 50  0001 C CNN
+F 3 "~" H -9375 -1300 50  0001 C CNN
+	1    -9375 -1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 -1600 -9375 -1600
+Wire Wire Line
+	-9375 -1450 -9375 -1600
+Connection ~ -9375 -1600
+Wire Wire Line
+	-9375 -1150 -9375 -1000
+Connection ~ -9375 -1000
+Wire Wire Line
+	-9375 -1600 -8950 -1600
+Wire Wire Line
+	-9375 -1000 -9025 -1000
+Wire Wire Line
+	-9025 -1000 -9025 -1875
+Wire Wire Line
+	-9025 -1875 -7625 -1875
+Wire Wire Line
+	-7625 -1875 -7625 -1600
+Wire Wire Line
+	-7625 -1600 -7750 -1600
+Connection ~ -9025 -1000
+Wire Wire Line
+	-9025 -1000 -8950 -1000
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4271
+P -7000 -1025
+AR Path="/5E7A4271" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4271" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 -900 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -6775 -1200 50  0000 L CNN
+F 2 "" H -6800 -925 50  0001 C CNN
+F 3 "~" H -7000 -1025 50  0001 C CNN
+	1    -7000 -1025
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4278
+P -7525 -825
+AR Path="/5E7A4278" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4278" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 -650 45  0000 C CNN
+F 1 "510K" H -7525 -725 45  0000 C CNN
+F 2 "0805" H -7525 -675 20  0001 C CNN
+F 3 "" H -7525 -825 60  0001 C CNN
+F 4 " " H -7525 -704 60  0000 C CNN "Field4"
+	1    -7525 -825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 -825 -7725 -825
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A427F
+P -7000 -1625
+AR Path="/5E7A427F" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A427F" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 -1475 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -6763 -1625 50  0000 C CNN
+F 2 "" H -6800 -1525 50  0001 C CNN
+F 3 "~" H -7000 -1625 50  0001 C CNN
+	1    -7000 -1625
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4286
+P -7525 -1300
+AR Path="/5E7A4286" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4286" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 -1125 45  0000 C CNN
+F 1 "510K" H -7525 -1200 45  0000 C CNN
+F 2 "0805" H -7525 -1150 20  0001 C CNN
+F 3 "" H -7525 -1300 60  0001 C CNN
+F 4 " " H -7525 -1179 60  0000 C CNN "Field4"
+	1    -7525 -1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 -1300 -7725 -1300
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A428E
+P -6350 -1000
+AR Path="/5E7A428E" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A428E" Ref="R?"  Part="1" 
+F 0 "R?" H -6375 -825 45  0000 C CNN
+F 1 "1M" H -6350 -900 45  0000 C CNN
+F 2 "0805" H -6350 -850 20  0001 C CNN
+F 3 "" H -6350 -1000 60  0001 C CNN
+F 4 " " H -6350 -879 60  0000 C CNN "Field4"
+	1    -6350 -1000
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4295
+P -6675 -550
+AR Path="/5E7A4295" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4295" Ref="R?"  Part="1" 
+F 0 "R?" H -6700 -375 45  0000 C CNN
+F 1 "1M" H -6675 -450 45  0000 C CNN
+F 2 "0805" H -6675 -400 20  0001 C CNN
+F 3 "" H -6675 -550 60  0001 C CNN
+F 4 " " H -6675 -429 60  0000 C CNN "Field4"
+	1    -6675 -550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9850 -2000 -9850 -1600
+Wire Wire Line
+	-10050 -1000 -9850 -1000
+Wire Wire Line
+	-6800 -1725 -6350 -1725
+Wire Wire Line
+	-9850 -2000 -7325 -2000
+Wire Wire Line
+	-7000 -1300 -7000 -1425
+Wire Wire Line
+	-7325 -1725 -7325 -2000
+Wire Wire Line
+	-7750 -1000 -7750 -825
+Wire Wire Line
+	-6800 -1125 -6675 -1125
+Wire Wire Line
+	-7325 -825 -7000 -825
+Wire Wire Line
+	-7325 -1725 -7200 -1725
+Wire Wire Line
+	-7325 -1300 -7000 -1300
+Wire Wire Line
+	-7325 -1125 -7200 -1125
+Connection ~ -7325 -1725
+Wire Wire Line
+	-6675 -1125 -6675 -750
+Wire Wire Line
+	-6675 -350 -6675 450 
+Wire Wire Line
+	-6350 -2375 -6350 -1725
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A42AD
+P -8350 275
+AR Path="/5E7A42AD" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A42AD" Ref="IC?"  Part="1" 
+F 0 "IC?" H -8700 750 50  0000 C CNN
+F 1 "DW01A" H -8350 500 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -8350 275 50  0001 L BNN
+F 3 "C351410" H -8350 275 50  0001 L BNN
+F 4 "DW01A" H -8350 275 50  0001 L BNN "Field4"
+F 5 "DW01A" H -8350 275 50  0001 L BNN "Field5"
+	1    -8350 275 
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A42B4
+P -9650 -25
+AR Path="/5E7A42B4" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A42B4" Ref="R?"  Part="1" 
+F 0 "R?" H -9675 150 45  0000 C CNN
+F 1 "100R" H -9650 75  45  0000 C CNN
+F 2 "0805" H -9650 125 20  0001 C CNN
+F 3 "" H -9650 -25 60  0001 C CNN
+F 4 " " H -9650 96  60  0000 C CNN "Field4"
+	1    -9650 -25 
+	1    0    0    -1  
+$EndComp
+NoConn ~ -8950 275 
+$Comp
+L Device:C C?
+U 1 1 5E7A42BB
+P -9375 275
+AR Path="/5E7A42BB" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A42BB" Ref="C?"  Part="1" 
+F 0 "C?" H -9260 321 50  0000 L CNN
+F 1 "0.1uF" H -9260 230 50  0000 L CNN
+F 2 "" H -9337 125 50  0001 C CNN
+F 3 "~" H -9375 275 50  0001 C CNN
+	1    -9375 275 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 -25  -9375 -25 
+Wire Wire Line
+	-9375 125  -9375 -25 
+Connection ~ -9375 -25 
+Wire Wire Line
+	-9375 425  -9375 575 
+Connection ~ -9375 575 
+Wire Wire Line
+	-9375 -25  -8950 -25 
+Wire Wire Line
+	-9375 575  -9025 575 
+Wire Wire Line
+	-9025 575  -9025 -300
+Wire Wire Line
+	-9025 -300 -7625 -300
+Wire Wire Line
+	-7625 -300 -7625 -25 
+Wire Wire Line
+	-7625 -25  -7750 -25 
+Connection ~ -9025 575 
+Wire Wire Line
+	-9025 575  -8950 575 
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A42CE
+P -7000 550
+AR Path="/5E7A42CE" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A42CE" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 675 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -6775 375 50  0000 L CNN
+F 2 "" H -6800 650 50  0001 C CNN
+F 3 "~" H -7000 550 50  0001 C CNN
+	1    -7000 550 
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A42D5
+P -7525 750
+AR Path="/5E7A42D5" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A42D5" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 925 45  0000 C CNN
+F 1 "510K" H -7525 850 45  0000 C CNN
+F 2 "0805" H -7525 900 20  0001 C CNN
+F 3 "" H -7525 750 60  0001 C CNN
+F 4 " " H -7525 871 60  0000 C CNN "Field4"
+	1    -7525 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 750  -7725 750 
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A42DC
+P -7000 -50
+AR Path="/5E7A42DC" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A42DC" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 100 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -6763 -50 50  0000 C CNN
+F 2 "" H -6800 50  50  0001 C CNN
+F 3 "~" H -7000 -50 50  0001 C CNN
+	1    -7000 -50 
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A42E3
+P -7525 275
+AR Path="/5E7A42E3" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A42E3" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 450 45  0000 C CNN
+F 1 "510K" H -7525 375 45  0000 C CNN
+F 2 "0805" H -7525 425 20  0001 C CNN
+F 3 "" H -7525 275 60  0001 C CNN
+F 4 " " H -7525 396 60  0000 C CNN "Field4"
+	1    -7525 275 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 275  -7725 275 
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A42EB
+P -6350 575
+AR Path="/5E7A42EB" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A42EB" Ref="R?"  Part="1" 
+F 0 "R?" H -6375 750 45  0000 C CNN
+F 1 "1M" H -6350 675 45  0000 C CNN
+F 2 "0805" H -6350 725 20  0001 C CNN
+F 3 "" H -6350 575 60  0001 C CNN
+F 4 " " H -6350 696 60  0000 C CNN "Field4"
+	1    -6350 575 
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A42F2
+P -6675 1025
+AR Path="/5E7A42F2" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A42F2" Ref="R?"  Part="1" 
+F 0 "R?" H -6700 1200 45  0000 C CNN
+F 1 "1M" H -6675 1125 45  0000 C CNN
+F 2 "0805" H -6675 1175 20  0001 C CNN
+F 3 "" H -6675 1025 60  0001 C CNN
+F 4 " " H -6675 1146 60  0000 C CNN "Field4"
+	1    -6675 1025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9850 -425 -9850 -25 
+Wire Wire Line
+	-10050 575  -9850 575 
+Wire Wire Line
+	-6800 -150 -6350 -150
+Wire Wire Line
+	-9850 -425 -7325 -425
+Wire Wire Line
+	-7000 275  -7000 150 
+Wire Wire Line
+	-7325 -150 -7325 -425
+Wire Wire Line
+	-7750 575  -7750 750 
+Wire Wire Line
+	-6800 450  -6675 450 
+Wire Wire Line
+	-7325 750  -7000 750 
+Wire Wire Line
+	-7325 -150 -7200 -150
+Wire Wire Line
+	-7325 275  -7000 275 
+Wire Wire Line
+	-7325 450  -7200 450 
+Connection ~ -7325 -150
+Wire Wire Line
+	-6675 450  -6675 825 
+Wire Wire Line
+	-6350 -800 -6350 -150
+Connection ~ -6675 -1125
+Connection ~ -6675 450 
+Connection ~ -6350 -1725
+Wire Wire Line
+	-6350 -1725 -6350 -1200
+Connection ~ -6350 -150
+Wire Wire Line
+	-6350 -150 -6350 375 
+Wire Wire Line
+	-6675 1225 -6675 2000
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A4310
+P -3675 -2775
+AR Path="/5E7A4310" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4310" Ref="IC?"  Part="1" 
+F 0 "IC?" H -4025 -2300 50  0000 C CNN
+F 1 "DW01A" H -3675 -2550 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -3675 -2775 50  0001 L BNN
+F 3 "C351410" H -3675 -2775 50  0001 L BNN
+F 4 "DW01A" H -3675 -2775 50  0001 L BNN "Field4"
+F 5 "DW01A" H -3675 -2775 50  0001 L BNN "Field5"
+	1    -3675 -2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4317
+P -4975 -3075
+AR Path="/5E7A4317" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4317" Ref="R?"  Part="1" 
+F 0 "R?" H -5000 -2900 45  0000 C CNN
+F 1 "100R" H -4975 -2975 45  0000 C CNN
+F 2 "0805" H -4975 -2925 20  0001 C CNN
+F 3 "" H -4975 -3075 60  0001 C CNN
+F 4 " " H -4975 -2954 60  0000 C CNN "Field4"
+	1    -4975 -3075
+	1    0    0    -1  
+$EndComp
+NoConn ~ -4275 -2775
+$Comp
+L Device:C C?
+U 1 1 5E7A431E
+P -4700 -2775
+AR Path="/5E7A431E" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A431E" Ref="C?"  Part="1" 
+F 0 "C?" H -4585 -2729 50  0000 L CNN
+F 1 "0.1uF" H -4585 -2820 50  0000 L CNN
+F 2 "" H -4662 -2925 50  0001 C CNN
+F 3 "~" H -4700 -2775 50  0001 C CNN
+	1    -4700 -2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4775 -3075 -4700 -3075
+Wire Wire Line
+	-4700 -2925 -4700 -3075
+Connection ~ -4700 -3075
+Wire Wire Line
+	-4700 -2625 -4700 -2475
+Connection ~ -4700 -2475
+Wire Wire Line
+	-4700 -3075 -4275 -3075
+Wire Wire Line
+	-4700 -2475 -4350 -2475
+Wire Wire Line
+	-4350 -2475 -4350 -3350
+Wire Wire Line
+	-4350 -3350 -2950 -3350
+Wire Wire Line
+	-2950 -3350 -2950 -3075
+Wire Wire Line
+	-2950 -3075 -3075 -3075
+Connection ~ -4350 -2475
+Wire Wire Line
+	-4350 -2475 -4275 -2475
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4331
+P -2325 -2500
+AR Path="/5E7A4331" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4331" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 -2375 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -2100 -2675 50  0000 L CNN
+F 2 "" H -2125 -2400 50  0001 C CNN
+F 3 "~" H -2325 -2500 50  0001 C CNN
+	1    -2325 -2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4338
+P -2850 -2300
+AR Path="/5E7A4338" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4338" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 -2125 45  0000 C CNN
+F 1 "510K" H -2850 -2200 45  0000 C CNN
+F 2 "0805" H -2850 -2150 20  0001 C CNN
+F 3 "" H -2850 -2300 60  0001 C CNN
+F 4 " " H -2850 -2179 60  0000 C CNN "Field4"
+	1    -2850 -2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 -2300 -3050 -2300
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A433F
+P -2325 -3100
+AR Path="/5E7A433F" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A433F" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 -2950 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -2088 -3100 50  0000 C CNN
+F 2 "" H -2125 -3000 50  0001 C CNN
+F 3 "~" H -2325 -3100 50  0001 C CNN
+	1    -2325 -3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4346
+P -2850 -2775
+AR Path="/5E7A4346" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4346" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 -2600 45  0000 C CNN
+F 1 "510K" H -2850 -2675 45  0000 C CNN
+F 2 "0805" H -2850 -2625 20  0001 C CNN
+F 3 "" H -2850 -2775 60  0001 C CNN
+F 4 " " H -2850 -2654 60  0000 C CNN "Field4"
+	1    -2850 -2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 -2775 -3050 -2775
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A434E
+P -1675 -2475
+AR Path="/5E7A434E" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A434E" Ref="R?"  Part="1" 
+F 0 "R?" H -1700 -2300 45  0000 C CNN
+F 1 "1M" H -1675 -2375 45  0000 C CNN
+F 2 "0805" H -1675 -2325 20  0001 C CNN
+F 3 "" H -1675 -2475 60  0001 C CNN
+F 4 " " H -1675 -2354 60  0000 C CNN "Field4"
+	1    -1675 -2475
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4355
+P -2000 -2025
+AR Path="/5E7A4355" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4355" Ref="R?"  Part="1" 
+F 0 "R?" H -2025 -1850 45  0000 C CNN
+F 1 "1M" H -2000 -1925 45  0000 C CNN
+F 2 "0805" H -2000 -1875 20  0001 C CNN
+F 3 "" H -2000 -2025 60  0001 C CNN
+F 4 " " H -2000 -1904 60  0000 C CNN "Field4"
+	1    -2000 -2025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5175 -3475 -5175 -3075
+Wire Wire Line
+	-5375 -2475 -5175 -2475
+Wire Wire Line
+	-2125 -3200 -1675 -3200
+Wire Wire Line
+	-5175 -3475 -2650 -3475
+Wire Wire Line
+	-5375 -4050 -5175 -4050
+Wire Wire Line
+	-2325 -2775 -2325 -2900
+Wire Wire Line
+	-2650 -3200 -2650 -3475
+Wire Wire Line
+	-3075 -2475 -3075 -2300
+Wire Wire Line
+	-2125 -2600 -2000 -2600
+Wire Wire Line
+	-2650 -2300 -2325 -2300
+Wire Wire Line
+	-2650 -3200 -2525 -3200
+Wire Wire Line
+	-2650 -2775 -2325 -2775
+Wire Wire Line
+	-2650 -2600 -2525 -2600
+Connection ~ -2650 -3200
+Wire Wire Line
+	-2000 -2600 -2000 -2225
+Wire Wire Line
+	-2000 -1825 -2000 -1025
+Wire Wire Line
+	-1675 -3850 -1675 -3200
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A436E
+P -3675 -1200
+AR Path="/5E7A436E" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A436E" Ref="IC?"  Part="1" 
+F 0 "IC?" H -4025 -725 50  0000 C CNN
+F 1 "DW01A" H -3675 -975 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -3675 -1200 50  0001 L BNN
+F 3 "C351410" H -3675 -1200 50  0001 L BNN
+F 4 "DW01A" H -3675 -1200 50  0001 L BNN "Field4"
+F 5 "DW01A" H -3675 -1200 50  0001 L BNN "Field5"
+	1    -3675 -1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4375
+P -4975 -1500
+AR Path="/5E7A4375" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4375" Ref="R?"  Part="1" 
+F 0 "R?" H -5000 -1325 45  0000 C CNN
+F 1 "100R" H -4975 -1400 45  0000 C CNN
+F 2 "0805" H -4975 -1350 20  0001 C CNN
+F 3 "" H -4975 -1500 60  0001 C CNN
+F 4 " " H -4975 -1379 60  0000 C CNN "Field4"
+	1    -4975 -1500
+	1    0    0    -1  
+$EndComp
+NoConn ~ -4275 -1200
+$Comp
+L Device:C C?
+U 1 1 5E7A437C
+P -4700 -1200
+AR Path="/5E7A437C" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A437C" Ref="C?"  Part="1" 
+F 0 "C?" H -4585 -1154 50  0000 L CNN
+F 1 "0.1uF" H -4585 -1245 50  0000 L CNN
+F 2 "" H -4662 -1350 50  0001 C CNN
+F 3 "~" H -4700 -1200 50  0001 C CNN
+	1    -4700 -1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4775 -1500 -4700 -1500
+Wire Wire Line
+	-4700 -1350 -4700 -1500
+Connection ~ -4700 -1500
+Wire Wire Line
+	-4700 -1050 -4700 -900
+Connection ~ -4700 -900
+Wire Wire Line
+	-4700 -1500 -4275 -1500
+Wire Wire Line
+	-4700 -900 -4350 -900
+Wire Wire Line
+	-4350 -900 -4350 -1775
+Wire Wire Line
+	-4350 -1775 -2950 -1775
+Wire Wire Line
+	-2950 -1775 -2950 -1500
+Wire Wire Line
+	-2950 -1500 -3075 -1500
+Connection ~ -4350 -900
+Wire Wire Line
+	-4350 -900 -4275 -900
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A438F
+P -2325 -925
+AR Path="/5E7A438F" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A438F" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 -800 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -2100 -1100 50  0000 L CNN
+F 2 "" H -2125 -825 50  0001 C CNN
+F 3 "~" H -2325 -925 50  0001 C CNN
+	1    -2325 -925
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4396
+P -2850 -725
+AR Path="/5E7A4396" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4396" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 -550 45  0000 C CNN
+F 1 "510K" H -2850 -625 45  0000 C CNN
+F 2 "0805" H -2850 -575 20  0001 C CNN
+F 3 "" H -2850 -725 60  0001 C CNN
+F 4 " " H -2850 -604 60  0000 C CNN "Field4"
+	1    -2850 -725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 -725 -3050 -725
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A439D
+P -2325 -1525
+AR Path="/5E7A439D" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A439D" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 -1375 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -2088 -1525 50  0000 C CNN
+F 2 "" H -2125 -1425 50  0001 C CNN
+F 3 "~" H -2325 -1525 50  0001 C CNN
+	1    -2325 -1525
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A43A4
+P -2850 -1200
+AR Path="/5E7A43A4" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A43A4" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 -1025 45  0000 C CNN
+F 1 "510K" H -2850 -1100 45  0000 C CNN
+F 2 "0805" H -2850 -1050 20  0001 C CNN
+F 3 "" H -2850 -1200 60  0001 C CNN
+F 4 " " H -2850 -1079 60  0000 C CNN "Field4"
+	1    -2850 -1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 -1200 -3050 -1200
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A43AC
+P -1675 -900
+AR Path="/5E7A43AC" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A43AC" Ref="R?"  Part="1" 
+F 0 "R?" H -1700 -725 45  0000 C CNN
+F 1 "1M" H -1675 -800 45  0000 C CNN
+F 2 "0805" H -1675 -750 20  0001 C CNN
+F 3 "" H -1675 -900 60  0001 C CNN
+F 4 " " H -1675 -779 60  0000 C CNN "Field4"
+	1    -1675 -900
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A43B3
+P -2000 -450
+AR Path="/5E7A43B3" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A43B3" Ref="R?"  Part="1" 
+F 0 "R?" H -2025 -275 45  0000 C CNN
+F 1 "1M" H -2000 -350 45  0000 C CNN
+F 2 "0805" H -2000 -300 20  0001 C CNN
+F 3 "" H -2000 -450 60  0001 C CNN
+F 4 " " H -2000 -329 60  0000 C CNN "Field4"
+	1    -2000 -450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5175 -1900 -5175 -1500
+Wire Wire Line
+	-5375 -900 -5175 -900
+Wire Wire Line
+	-2125 -1625 -1675 -1625
+Wire Wire Line
+	-5175 -1900 -2650 -1900
+Wire Wire Line
+	-2325 -1200 -2325 -1325
+Wire Wire Line
+	-2650 -1625 -2650 -1900
+Wire Wire Line
+	-3075 -900 -3075 -725
+Wire Wire Line
+	-2125 -1025 -2000 -1025
+Wire Wire Line
+	-2650 -725 -2325 -725
+Wire Wire Line
+	-2650 -1625 -2525 -1625
+Wire Wire Line
+	-2650 -1200 -2325 -1200
+Wire Wire Line
+	-2650 -1025 -2525 -1025
+Connection ~ -2650 -1625
+Wire Wire Line
+	-2000 -1025 -2000 -650
+Wire Wire Line
+	-2000 -250 -2000 550 
+Wire Wire Line
+	-1675 -2275 -1675 -1625
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A43CB
+P -8350 1825
+AR Path="/5E7A43CB" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A43CB" Ref="IC?"  Part="1" 
+F 0 "IC?" H -8700 2300 50  0000 C CNN
+F 1 "DW01A" H -8350 2050 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -8350 1825 50  0001 L BNN
+F 3 "C351410" H -8350 1825 50  0001 L BNN
+F 4 "DW01A" H -8350 1825 50  0001 L BNN "Field4"
+F 5 "DW01A" H -8350 1825 50  0001 L BNN "Field5"
+	1    -8350 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A43D2
+P -9650 1525
+AR Path="/5E7A43D2" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A43D2" Ref="R?"  Part="1" 
+F 0 "R?" H -9675 1700 45  0000 C CNN
+F 1 "100R" H -9650 1625 45  0000 C CNN
+F 2 "0805" H -9650 1675 20  0001 C CNN
+F 3 "" H -9650 1525 60  0001 C CNN
+F 4 " " H -9650 1646 60  0000 C CNN "Field4"
+	1    -9650 1525
+	1    0    0    -1  
+$EndComp
+NoConn ~ -8950 1825
+$Comp
+L Device:C C?
+U 1 1 5E7A43D9
+P -9375 1825
+AR Path="/5E7A43D9" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A43D9" Ref="C?"  Part="1" 
+F 0 "C?" H -9260 1871 50  0000 L CNN
+F 1 "0.1uF" H -9260 1780 50  0000 L CNN
+F 2 "" H -9337 1675 50  0001 C CNN
+F 3 "~" H -9375 1825 50  0001 C CNN
+	1    -9375 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 1525 -9375 1525
+Wire Wire Line
+	-9375 1675 -9375 1525
+Connection ~ -9375 1525
+Wire Wire Line
+	-9375 1975 -9375 2125
+Connection ~ -9375 2125
+Wire Wire Line
+	-9375 1525 -8950 1525
+Wire Wire Line
+	-9375 2125 -9025 2125
+Wire Wire Line
+	-9025 2125 -9025 1250
+Wire Wire Line
+	-9025 1250 -7625 1250
+Wire Wire Line
+	-7625 1250 -7625 1525
+Wire Wire Line
+	-7625 1525 -7750 1525
+Connection ~ -9025 2125
+Wire Wire Line
+	-9025 2125 -8950 2125
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A43EC
+P -7000 2100
+AR Path="/5E7A43EC" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A43EC" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 2225 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -6775 1925 50  0000 L CNN
+F 2 "" H -6800 2200 50  0001 C CNN
+F 3 "~" H -7000 2100 50  0001 C CNN
+	1    -7000 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A43F3
+P -7525 2300
+AR Path="/5E7A43F3" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A43F3" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 2475 45  0000 C CNN
+F 1 "510K" H -7525 2400 45  0000 C CNN
+F 2 "0805" H -7525 2450 20  0001 C CNN
+F 3 "" H -7525 2300 60  0001 C CNN
+F 4 " " H -7525 2421 60  0000 C CNN "Field4"
+	1    -7525 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 2300 -7725 2300
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A43FA
+P -7000 1500
+AR Path="/5E7A43FA" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A43FA" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 1650 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -6763 1500 50  0000 C CNN
+F 2 "" H -6800 1600 50  0001 C CNN
+F 3 "~" H -7000 1500 50  0001 C CNN
+	1    -7000 1500
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4401
+P -7525 1825
+AR Path="/5E7A4401" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4401" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 2000 45  0000 C CNN
+F 1 "510K" H -7525 1925 45  0000 C CNN
+F 2 "0805" H -7525 1975 20  0001 C CNN
+F 3 "" H -7525 1825 60  0001 C CNN
+F 4 " " H -7525 1946 60  0000 C CNN "Field4"
+	1    -7525 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 1825 -7725 1825
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4409
+P -6350 2125
+AR Path="/5E7A4409" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4409" Ref="R?"  Part="1" 
+F 0 "R?" H -6375 2300 45  0000 C CNN
+F 1 "1M" H -6350 2225 45  0000 C CNN
+F 2 "0805" H -6350 2275 20  0001 C CNN
+F 3 "" H -6350 2125 60  0001 C CNN
+F 4 " " H -6350 2246 60  0000 C CNN "Field4"
+	1    -6350 2125
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4410
+P -6675 2575
+AR Path="/5E7A4410" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4410" Ref="R?"  Part="1" 
+F 0 "R?" H -6700 2750 45  0000 C CNN
+F 1 "1M" H -6675 2675 45  0000 C CNN
+F 2 "0805" H -6675 2725 20  0001 C CNN
+F 3 "" H -6675 2575 60  0001 C CNN
+F 4 " " H -6675 2696 60  0000 C CNN "Field4"
+	1    -6675 2575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9850 1125 -9850 1525
+Wire Wire Line
+	-10050 2125 -9850 2125
+Wire Wire Line
+	-6800 1400 -6350 1400
+Wire Wire Line
+	-9850 1125 -7325 1125
+Wire Wire Line
+	-7000 1825 -7000 1700
+Wire Wire Line
+	-7325 1400 -7325 1125
+Wire Wire Line
+	-7750 2125 -7750 2300
+Wire Wire Line
+	-6800 2000 -6675 2000
+Wire Wire Line
+	-7325 2300 -7000 2300
+Wire Wire Line
+	-7325 1400 -7200 1400
+Wire Wire Line
+	-7325 1825 -7000 1825
+Wire Wire Line
+	-7325 2000 -7200 2000
+Connection ~ -7325 1400
+Wire Wire Line
+	-6675 2000 -6675 2375
+Wire Wire Line
+	-6675 2775 -6675 3575
+Wire Wire Line
+	-6350 775  -6350 1400
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A4428
+P -8350 3400
+AR Path="/5E7A4428" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4428" Ref="IC?"  Part="1" 
+F 0 "IC?" H -8700 3875 50  0000 C CNN
+F 1 "DW01A" H -8350 3625 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -8350 3400 50  0001 L BNN
+F 3 "C351410" H -8350 3400 50  0001 L BNN
+F 4 "DW01A" H -8350 3400 50  0001 L BNN "Field4"
+F 5 "DW01A" H -8350 3400 50  0001 L BNN "Field5"
+	1    -8350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A442F
+P -9650 3100
+AR Path="/5E7A442F" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A442F" Ref="R?"  Part="1" 
+F 0 "R?" H -9675 3275 45  0000 C CNN
+F 1 "100R" H -9650 3200 45  0000 C CNN
+F 2 "0805" H -9650 3250 20  0001 C CNN
+F 3 "" H -9650 3100 60  0001 C CNN
+F 4 " " H -9650 3221 60  0000 C CNN "Field4"
+	1    -9650 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ -8950 3400
+$Comp
+L Device:C C?
+U 1 1 5E7A4436
+P -9375 3400
+AR Path="/5E7A4436" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4436" Ref="C?"  Part="1" 
+F 0 "C?" H -9260 3446 50  0000 L CNN
+F 1 "0.1uF" H -9260 3355 50  0000 L CNN
+F 2 "" H -9337 3250 50  0001 C CNN
+F 3 "~" H -9375 3400 50  0001 C CNN
+	1    -9375 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 3100 -9375 3100
+Wire Wire Line
+	-9375 3250 -9375 3100
+Connection ~ -9375 3100
+Wire Wire Line
+	-9375 3550 -9375 3700
+Connection ~ -9375 3700
+Wire Wire Line
+	-9375 3100 -8950 3100
+Wire Wire Line
+	-9375 3700 -9025 3700
+Wire Wire Line
+	-9025 3700 -9025 2825
+Wire Wire Line
+	-9025 2825 -7625 2825
+Wire Wire Line
+	-7625 2825 -7625 3100
+Wire Wire Line
+	-7625 3100 -7750 3100
+Connection ~ -9025 3700
+Wire Wire Line
+	-9025 3700 -8950 3700
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4449
+P -7000 3675
+AR Path="/5E7A4449" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4449" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 3800 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -6775 3500 50  0000 L CNN
+F 2 "" H -6800 3775 50  0001 C CNN
+F 3 "~" H -7000 3675 50  0001 C CNN
+	1    -7000 3675
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4450
+P -7525 3875
+AR Path="/5E7A4450" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4450" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 4050 45  0000 C CNN
+F 1 "510K" H -7525 3975 45  0000 C CNN
+F 2 "0805" H -7525 4025 20  0001 C CNN
+F 3 "" H -7525 3875 60  0001 C CNN
+F 4 " " H -7525 3996 60  0000 C CNN "Field4"
+	1    -7525 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 3875 -7725 3875
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4457
+P -7000 3075
+AR Path="/5E7A4457" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4457" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 3225 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -6763 3075 50  0000 C CNN
+F 2 "" H -6800 3175 50  0001 C CNN
+F 3 "~" H -7000 3075 50  0001 C CNN
+	1    -7000 3075
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A445E
+P -7525 3400
+AR Path="/5E7A445E" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A445E" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 3575 45  0000 C CNN
+F 1 "510K" H -7525 3500 45  0000 C CNN
+F 2 "0805" H -7525 3550 20  0001 C CNN
+F 3 "" H -7525 3400 60  0001 C CNN
+F 4 " " H -7525 3521 60  0000 C CNN "Field4"
+	1    -7525 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 3400 -7725 3400
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4466
+P -6350 3700
+AR Path="/5E7A4466" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4466" Ref="R?"  Part="1" 
+F 0 "R?" H -6375 3875 45  0000 C CNN
+F 1 "1M" H -6350 3800 45  0000 C CNN
+F 2 "0805" H -6350 3850 20  0001 C CNN
+F 3 "" H -6350 3700 60  0001 C CNN
+F 4 " " H -6350 3821 60  0000 C CNN "Field4"
+	1    -6350 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A446D
+P -6675 4150
+AR Path="/5E7A446D" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A446D" Ref="R?"  Part="1" 
+F 0 "R?" H -6700 4325 45  0000 C CNN
+F 1 "1M" H -6675 4250 45  0000 C CNN
+F 2 "0805" H -6675 4300 20  0001 C CNN
+F 3 "" H -6675 4150 60  0001 C CNN
+F 4 " " H -6675 4271 60  0000 C CNN "Field4"
+	1    -6675 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9850 2700 -9850 3100
+Wire Wire Line
+	-10050 3700 -9850 3700
+Wire Wire Line
+	-6800 2975 -6350 2975
+Wire Wire Line
+	-9850 2700 -7325 2700
+Wire Wire Line
+	-7000 3400 -7000 3275
+Wire Wire Line
+	-7325 2975 -7325 2700
+Wire Wire Line
+	-7750 3700 -7750 3875
+Wire Wire Line
+	-6800 3575 -6675 3575
+Wire Wire Line
+	-7325 3875 -7000 3875
+Wire Wire Line
+	-7325 2975 -7200 2975
+Wire Wire Line
+	-7325 3400 -7000 3400
+Wire Wire Line
+	-7325 3575 -7200 3575
+Connection ~ -7325 2975
+Wire Wire Line
+	-6675 3575 -6675 3950
+Wire Wire Line
+	-6675 4350 -6675 5150
+Wire Wire Line
+	-6350 2325 -6350 2975
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A4485
+P -8350 4975
+AR Path="/5E7A4485" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4485" Ref="IC?"  Part="1" 
+F 0 "IC?" H -8700 5450 50  0000 C CNN
+F 1 "DW01A" H -8350 5200 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -8350 4975 50  0001 L BNN
+F 3 "C351410" H -8350 4975 50  0001 L BNN
+F 4 "DW01A" H -8350 4975 50  0001 L BNN "Field4"
+F 5 "DW01A" H -8350 4975 50  0001 L BNN "Field5"
+	1    -8350 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A448C
+P -9650 4675
+AR Path="/5E7A448C" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A448C" Ref="R?"  Part="1" 
+F 0 "R?" H -9675 4850 45  0000 C CNN
+F 1 "100R" H -9650 4775 45  0000 C CNN
+F 2 "0805" H -9650 4825 20  0001 C CNN
+F 3 "" H -9650 4675 60  0001 C CNN
+F 4 " " H -9650 4796 60  0000 C CNN "Field4"
+	1    -9650 4675
+	1    0    0    -1  
+$EndComp
+NoConn ~ -8950 4975
+$Comp
+L Device:C C?
+U 1 1 5E7A4493
+P -9375 4975
+AR Path="/5E7A4493" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4493" Ref="C?"  Part="1" 
+F 0 "C?" H -9260 5021 50  0000 L CNN
+F 1 "0.1uF" H -9260 4930 50  0000 L CNN
+F 2 "" H -9337 4825 50  0001 C CNN
+F 3 "~" H -9375 4975 50  0001 C CNN
+	1    -9375 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 4675 -9375 4675
+Wire Wire Line
+	-9375 4825 -9375 4675
+Connection ~ -9375 4675
+Wire Wire Line
+	-9375 5125 -9375 5275
+Connection ~ -9375 5275
+Wire Wire Line
+	-9375 4675 -8950 4675
+Wire Wire Line
+	-9375 5275 -9025 5275
+Wire Wire Line
+	-9025 5275 -9025 4400
+Wire Wire Line
+	-9025 4400 -7625 4400
+Wire Wire Line
+	-7625 4400 -7625 4675
+Wire Wire Line
+	-7625 4675 -7750 4675
+Connection ~ -9025 5275
+Wire Wire Line
+	-9025 5275 -8950 5275
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A44A6
+P -7000 5250
+AR Path="/5E7A44A6" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A44A6" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 5375 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -6775 5075 50  0000 L CNN
+F 2 "" H -6800 5350 50  0001 C CNN
+F 3 "~" H -7000 5250 50  0001 C CNN
+	1    -7000 5250
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A44AD
+P -7525 5450
+AR Path="/5E7A44AD" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A44AD" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 5625 45  0000 C CNN
+F 1 "510K" H -7525 5550 45  0000 C CNN
+F 2 "0805" H -7525 5600 20  0001 C CNN
+F 3 "" H -7525 5450 60  0001 C CNN
+F 4 " " H -7525 5571 60  0000 C CNN "Field4"
+	1    -7525 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 5450 -7725 5450
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A44B4
+P -7000 4650
+AR Path="/5E7A44B4" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A44B4" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 4800 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -6763 4650 50  0000 C CNN
+F 2 "" H -6800 4750 50  0001 C CNN
+F 3 "~" H -7000 4650 50  0001 C CNN
+	1    -7000 4650
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A44BB
+P -7525 4975
+AR Path="/5E7A44BB" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A44BB" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 5150 45  0000 C CNN
+F 1 "510K" H -7525 5075 45  0000 C CNN
+F 2 "0805" H -7525 5125 20  0001 C CNN
+F 3 "" H -7525 4975 60  0001 C CNN
+F 4 " " H -7525 5096 60  0000 C CNN "Field4"
+	1    -7525 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 4975 -7725 4975
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A44C3
+P -6350 5275
+AR Path="/5E7A44C3" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A44C3" Ref="R?"  Part="1" 
+F 0 "R?" H -6375 5450 45  0000 C CNN
+F 1 "1M" H -6350 5375 45  0000 C CNN
+F 2 "0805" H -6350 5425 20  0001 C CNN
+F 3 "" H -6350 5275 60  0001 C CNN
+F 4 " " H -6350 5396 60  0000 C CNN "Field4"
+	1    -6350 5275
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A44CA
+P -6675 5725
+AR Path="/5E7A44CA" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A44CA" Ref="R?"  Part="1" 
+F 0 "R?" H -6700 5900 45  0000 C CNN
+F 1 "1M" H -6675 5825 45  0000 C CNN
+F 2 "0805" H -6675 5875 20  0001 C CNN
+F 3 "" H -6675 5725 60  0001 C CNN
+F 4 " " H -6675 5846 60  0000 C CNN "Field4"
+	1    -6675 5725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9850 4275 -9850 4675
+Wire Wire Line
+	-10050 5275 -9850 5275
+Wire Wire Line
+	-6800 4550 -6350 4550
+Wire Wire Line
+	-9850 4275 -7325 4275
+Wire Wire Line
+	-7000 4975 -7000 4850
+Wire Wire Line
+	-7325 4550 -7325 4275
+Wire Wire Line
+	-7750 5275 -7750 5450
+Wire Wire Line
+	-6800 5150 -6675 5150
+Wire Wire Line
+	-7325 5450 -7000 5450
+Wire Wire Line
+	-7325 4550 -7200 4550
+Wire Wire Line
+	-7325 4975 -7000 4975
+Wire Wire Line
+	-7325 5150 -7200 5150
+Connection ~ -7325 4550
+Wire Wire Line
+	-6675 5150 -6675 5525
+Wire Wire Line
+	-6675 5925 -6675 6725
+Wire Wire Line
+	-6350 3900 -6350 4550
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A44E2
+P -8350 6550
+AR Path="/5E7A44E2" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A44E2" Ref="IC?"  Part="1" 
+F 0 "IC?" H -8700 7025 50  0000 C CNN
+F 1 "DW01A" H -8350 6775 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -8350 6550 50  0001 L BNN
+F 3 "C351410" H -8350 6550 50  0001 L BNN
+F 4 "DW01A" H -8350 6550 50  0001 L BNN "Field4"
+F 5 "DW01A" H -8350 6550 50  0001 L BNN "Field5"
+	1    -8350 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A44E9
+P -9650 6250
+AR Path="/5E7A44E9" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A44E9" Ref="R?"  Part="1" 
+F 0 "R?" H -9675 6425 45  0000 C CNN
+F 1 "100R" H -9650 6350 45  0000 C CNN
+F 2 "0805" H -9650 6400 20  0001 C CNN
+F 3 "" H -9650 6250 60  0001 C CNN
+F 4 " " H -9650 6371 60  0000 C CNN "Field4"
+	1    -9650 6250
+	1    0    0    -1  
+$EndComp
+NoConn ~ -8950 6550
+$Comp
+L Device:C C?
+U 1 1 5E7A44F0
+P -9375 6550
+AR Path="/5E7A44F0" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A44F0" Ref="C?"  Part="1" 
+F 0 "C?" H -9260 6596 50  0000 L CNN
+F 1 "0.1uF" H -9260 6505 50  0000 L CNN
+F 2 "" H -9337 6400 50  0001 C CNN
+F 3 "~" H -9375 6550 50  0001 C CNN
+	1    -9375 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 6250 -9375 6250
+Wire Wire Line
+	-9375 6400 -9375 6250
+Connection ~ -9375 6250
+Wire Wire Line
+	-9375 6700 -9375 6850
+Connection ~ -9375 6850
+Wire Wire Line
+	-9375 6250 -8950 6250
+Wire Wire Line
+	-9375 6850 -9025 6850
+Wire Wire Line
+	-9025 6850 -9025 5975
+Wire Wire Line
+	-9025 5975 -7625 5975
+Wire Wire Line
+	-7625 5975 -7625 6250
+Wire Wire Line
+	-7625 6250 -7750 6250
+Connection ~ -9025 6850
+Wire Wire Line
+	-9025 6850 -8950 6850
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4503
+P -7000 6825
+AR Path="/5E7A4503" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4503" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 6950 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -6775 6650 50  0000 L CNN
+F 2 "" H -6800 6925 50  0001 C CNN
+F 3 "~" H -7000 6825 50  0001 C CNN
+	1    -7000 6825
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A450A
+P -7525 7025
+AR Path="/5E7A450A" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A450A" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 7200 45  0000 C CNN
+F 1 "510K" H -7525 7125 45  0000 C CNN
+F 2 "0805" H -7525 7175 20  0001 C CNN
+F 3 "" H -7525 7025 60  0001 C CNN
+F 4 " " H -7525 7146 60  0000 C CNN "Field4"
+	1    -7525 7025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 7025 -7725 7025
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4511
+P -7000 6225
+AR Path="/5E7A4511" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4511" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 6375 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -6763 6225 50  0000 C CNN
+F 2 "" H -6800 6325 50  0001 C CNN
+F 3 "~" H -7000 6225 50  0001 C CNN
+	1    -7000 6225
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4518
+P -7525 6550
+AR Path="/5E7A4518" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4518" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 6725 45  0000 C CNN
+F 1 "510K" H -7525 6650 45  0000 C CNN
+F 2 "0805" H -7525 6700 20  0001 C CNN
+F 3 "" H -7525 6550 60  0001 C CNN
+F 4 " " H -7525 6671 60  0000 C CNN "Field4"
+	1    -7525 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 6550 -7725 6550
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4520
+P -6350 6850
+AR Path="/5E7A4520" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4520" Ref="R?"  Part="1" 
+F 0 "R?" H -6375 7025 45  0000 C CNN
+F 1 "1M" H -6350 6950 45  0000 C CNN
+F 2 "0805" H -6350 7000 20  0001 C CNN
+F 3 "" H -6350 6850 60  0001 C CNN
+F 4 " " H -6350 6971 60  0000 C CNN "Field4"
+	1    -6350 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4527
+P -6675 7300
+AR Path="/5E7A4527" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4527" Ref="R?"  Part="1" 
+F 0 "R?" H -6700 7475 45  0000 C CNN
+F 1 "1M" H -6675 7400 45  0000 C CNN
+F 2 "0805" H -6675 7450 20  0001 C CNN
+F 3 "" H -6675 7300 60  0001 C CNN
+F 4 " " H -6675 7421 60  0000 C CNN "Field4"
+	1    -6675 7300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9850 5850 -9850 6250
+Wire Wire Line
+	-10050 6850 -9850 6850
+Wire Wire Line
+	-6800 6125 -6350 6125
+Wire Wire Line
+	-9850 5850 -7325 5850
+Wire Wire Line
+	-7000 6550 -7000 6425
+Wire Wire Line
+	-7325 6125 -7325 5850
+Wire Wire Line
+	-7750 6850 -7750 7025
+Wire Wire Line
+	-6800 6725 -6675 6725
+Wire Wire Line
+	-7325 7025 -7000 7025
+Wire Wire Line
+	-7325 6125 -7200 6125
+Wire Wire Line
+	-7325 6550 -7000 6550
+Wire Wire Line
+	-7325 6725 -7200 6725
+Connection ~ -7325 6125
+Wire Wire Line
+	-6675 6725 -6675 7100
+Wire Wire Line
+	-6675 7500 -6675 8300
+Wire Wire Line
+	-6350 5475 -6350 6125
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A453F
+P -8350 8125
+AR Path="/5E7A453F" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A453F" Ref="IC?"  Part="1" 
+F 0 "IC?" H -8700 8600 50  0000 C CNN
+F 1 "DW01A" H -8350 8350 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -8350 8125 50  0001 L BNN
+F 3 "C351410" H -8350 8125 50  0001 L BNN
+F 4 "DW01A" H -8350 8125 50  0001 L BNN "Field4"
+F 5 "DW01A" H -8350 8125 50  0001 L BNN "Field5"
+	1    -8350 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4546
+P -9650 7825
+AR Path="/5E7A4546" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4546" Ref="R?"  Part="1" 
+F 0 "R?" H -9675 8000 45  0000 C CNN
+F 1 "100R" H -9650 7925 45  0000 C CNN
+F 2 "0805" H -9650 7975 20  0001 C CNN
+F 3 "" H -9650 7825 60  0001 C CNN
+F 4 " " H -9650 7946 60  0000 C CNN "Field4"
+	1    -9650 7825
+	1    0    0    -1  
+$EndComp
+NoConn ~ -8950 8125
+$Comp
+L Device:C C?
+U 1 1 5E7A454D
+P -9375 8125
+AR Path="/5E7A454D" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A454D" Ref="C?"  Part="1" 
+F 0 "C?" H -9260 8171 50  0000 L CNN
+F 1 "0.1uF" H -9260 8080 50  0000 L CNN
+F 2 "" H -9337 7975 50  0001 C CNN
+F 3 "~" H -9375 8125 50  0001 C CNN
+	1    -9375 8125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 7825 -9375 7825
+Wire Wire Line
+	-9375 7975 -9375 7825
+Connection ~ -9375 7825
+Wire Wire Line
+	-9375 8275 -9375 8425
+Connection ~ -9375 8425
+Wire Wire Line
+	-9375 7825 -8950 7825
+Wire Wire Line
+	-9375 8425 -9025 8425
+Wire Wire Line
+	-9025 8425 -9025 7550
+Wire Wire Line
+	-9025 7550 -7625 7550
+Wire Wire Line
+	-7625 7550 -7625 7825
+Wire Wire Line
+	-7625 7825 -7750 7825
+Connection ~ -9025 8425
+Wire Wire Line
+	-9025 8425 -8950 8425
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4560
+P -7000 8400
+AR Path="/5E7A4560" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4560" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 8525 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -6775 8225 50  0000 L CNN
+F 2 "" H -6800 8500 50  0001 C CNN
+F 3 "~" H -7000 8400 50  0001 C CNN
+	1    -7000 8400
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4567
+P -7525 8600
+AR Path="/5E7A4567" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4567" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 8775 45  0000 C CNN
+F 1 "510K" H -7525 8700 45  0000 C CNN
+F 2 "0805" H -7525 8750 20  0001 C CNN
+F 3 "" H -7525 8600 60  0001 C CNN
+F 4 " " H -7525 8721 60  0000 C CNN "Field4"
+	1    -7525 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 8600 -7725 8600
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A456E
+P -7000 7800
+AR Path="/5E7A456E" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A456E" Ref="Q?"  Part="1" 
+F 0 "Q?" V -6850 7950 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -6763 7800 50  0000 C CNN
+F 2 "" H -6800 7900 50  0001 C CNN
+F 3 "~" H -7000 7800 50  0001 C CNN
+	1    -7000 7800
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4575
+P -7525 8125
+AR Path="/5E7A4575" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4575" Ref="R?"  Part="1" 
+F 0 "R?" H -7550 8300 45  0000 C CNN
+F 1 "510K" H -7525 8225 45  0000 C CNN
+F 2 "0805" H -7525 8275 20  0001 C CNN
+F 3 "" H -7525 8125 60  0001 C CNN
+F 4 " " H -7525 8246 60  0000 C CNN "Field4"
+	1    -7525 8125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 8125 -7725 8125
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A457D
+P -6350 8425
+AR Path="/5E7A457D" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A457D" Ref="R?"  Part="1" 
+F 0 "R?" H -6375 8600 45  0000 C CNN
+F 1 "1M" H -6350 8525 45  0000 C CNN
+F 2 "0805" H -6350 8575 20  0001 C CNN
+F 3 "" H -6350 8425 60  0001 C CNN
+F 4 " " H -6350 8546 60  0000 C CNN "Field4"
+	1    -6350 8425
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4584
+P -6675 8875
+AR Path="/5E7A4584" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4584" Ref="R?"  Part="1" 
+F 0 "R?" H -6700 9050 45  0000 C CNN
+F 1 "1M" H -6675 8975 45  0000 C CNN
+F 2 "0805" H -6675 9025 20  0001 C CNN
+F 3 "" H -6675 8875 60  0001 C CNN
+F 4 " " H -6675 8996 60  0000 C CNN "Field4"
+	1    -6675 8875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9850 7425 -9850 7825
+Wire Wire Line
+	-10050 8425 -9375 8425
+Wire Wire Line
+	-6800 7700 -6350 7700
+Wire Wire Line
+	-9850 7425 -7325 7425
+Wire Wire Line
+	-7000 8125 -7000 8000
+Wire Wire Line
+	-7325 7700 -7325 7425
+Wire Wire Line
+	-7750 8425 -7750 8600
+Wire Wire Line
+	-6800 8300 -6675 8300
+Wire Wire Line
+	-7325 8600 -7000 8600
+Wire Wire Line
+	-7325 7700 -7200 7700
+Wire Wire Line
+	-7325 8125 -7000 8125
+Wire Wire Line
+	-7325 8300 -7200 8300
+Connection ~ -7325 7700
+Wire Wire Line
+	-6675 8300 -6675 8675
+Wire Wire Line
+	-6350 7050 -6350 7700
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A459B
+P -3675 375
+AR Path="/5E7A459B" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A459B" Ref="IC?"  Part="1" 
+F 0 "IC?" H -4025 850 50  0000 C CNN
+F 1 "DW01A" H -3675 600 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -3675 375 50  0001 L BNN
+F 3 "C351410" H -3675 375 50  0001 L BNN
+F 4 "DW01A" H -3675 375 50  0001 L BNN "Field4"
+F 5 "DW01A" H -3675 375 50  0001 L BNN "Field5"
+	1    -3675 375 
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A45A2
+P -4975 75
+AR Path="/5E7A45A2" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45A2" Ref="R?"  Part="1" 
+F 0 "R?" H -5000 250 45  0000 C CNN
+F 1 "100R" H -4975 175 45  0000 C CNN
+F 2 "0805" H -4975 225 20  0001 C CNN
+F 3 "" H -4975 75  60  0001 C CNN
+F 4 " " H -4975 196 60  0000 C CNN "Field4"
+	1    -4975 75  
+	1    0    0    -1  
+$EndComp
+NoConn ~ -4275 375 
+$Comp
+L Device:C C?
+U 1 1 5E7A45A9
+P -4700 375
+AR Path="/5E7A45A9" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45A9" Ref="C?"  Part="1" 
+F 0 "C?" H -4585 421 50  0000 L CNN
+F 1 "0.1uF" H -4585 330 50  0000 L CNN
+F 2 "" H -4662 225 50  0001 C CNN
+F 3 "~" H -4700 375 50  0001 C CNN
+	1    -4700 375 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4775 75   -4700 75  
+Wire Wire Line
+	-4700 225  -4700 75  
+Connection ~ -4700 75  
+Wire Wire Line
+	-4700 525  -4700 675 
+Connection ~ -4700 675 
+Wire Wire Line
+	-4700 75   -4275 75  
+Wire Wire Line
+	-4700 675  -4350 675 
+Wire Wire Line
+	-4350 675  -4350 -200
+Wire Wire Line
+	-4350 -200 -2950 -200
+Wire Wire Line
+	-2950 -200 -2950 75  
+Wire Wire Line
+	-2950 75   -3075 75  
+Connection ~ -4350 675 
+Wire Wire Line
+	-4350 675  -4275 675 
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A45BC
+P -2325 650
+AR Path="/5E7A45BC" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45BC" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 775 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -2100 475 50  0000 L CNN
+F 2 "" H -2125 750 50  0001 C CNN
+F 3 "~" H -2325 650 50  0001 C CNN
+	1    -2325 650 
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A45C3
+P -2850 850
+AR Path="/5E7A45C3" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45C3" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 1025 45  0000 C CNN
+F 1 "510K" H -2850 950 45  0000 C CNN
+F 2 "0805" H -2850 1000 20  0001 C CNN
+F 3 "" H -2850 850 60  0001 C CNN
+F 4 " " H -2850 971 60  0000 C CNN "Field4"
+	1    -2850 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 850  -3050 850 
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A45CA
+P -2325 50
+AR Path="/5E7A45CA" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45CA" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 200 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -2088 50  50  0000 C CNN
+F 2 "" H -2125 150 50  0001 C CNN
+F 3 "~" H -2325 50  50  0001 C CNN
+	1    -2325 50  
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A45D1
+P -2850 375
+AR Path="/5E7A45D1" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45D1" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 550 45  0000 C CNN
+F 1 "510K" H -2850 475 45  0000 C CNN
+F 2 "0805" H -2850 525 20  0001 C CNN
+F 3 "" H -2850 375 60  0001 C CNN
+F 4 " " H -2850 496 60  0000 C CNN "Field4"
+	1    -2850 375 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 375  -3050 375 
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A45D9
+P -1675 675
+AR Path="/5E7A45D9" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45D9" Ref="R?"  Part="1" 
+F 0 "R?" H -1700 850 45  0000 C CNN
+F 1 "1M" H -1675 775 45  0000 C CNN
+F 2 "0805" H -1675 825 20  0001 C CNN
+F 3 "" H -1675 675 60  0001 C CNN
+F 4 " " H -1675 796 60  0000 C CNN "Field4"
+	1    -1675 675 
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A45E0
+P -2000 1125
+AR Path="/5E7A45E0" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45E0" Ref="R?"  Part="1" 
+F 0 "R?" H -2025 1300 45  0000 C CNN
+F 1 "1M" H -2000 1225 45  0000 C CNN
+F 2 "0805" H -2000 1275 20  0001 C CNN
+F 3 "" H -2000 1125 60  0001 C CNN
+F 4 " " H -2000 1246 60  0000 C CNN "Field4"
+	1    -2000 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5175 -325 -5175 75  
+Wire Wire Line
+	-5375 675  -5175 675 
+Wire Wire Line
+	-2125 -50  -1675 -50 
+Wire Wire Line
+	-5175 -325 -2650 -325
+Wire Wire Line
+	-2325 375  -2325 250 
+Wire Wire Line
+	-2650 -50  -2650 -325
+Wire Wire Line
+	-3075 675  -3075 850 
+Wire Wire Line
+	-2125 550  -2000 550 
+Wire Wire Line
+	-2650 850  -2325 850 
+Wire Wire Line
+	-2650 -50  -2525 -50 
+Wire Wire Line
+	-2650 375  -2325 375 
+Wire Wire Line
+	-2650 550  -2525 550 
+Connection ~ -2650 -50 
+Wire Wire Line
+	-2000 550  -2000 925 
+Wire Wire Line
+	-2000 1325 -2000 2125
+Wire Wire Line
+	-1675 -700 -1675 -50 
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A45F8
+P -3675 1950
+AR Path="/5E7A45F8" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45F8" Ref="IC?"  Part="1" 
+F 0 "IC?" H -4025 2425 50  0000 C CNN
+F 1 "DW01A" H -3675 2175 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -3675 1950 50  0001 L BNN
+F 3 "C351410" H -3675 1950 50  0001 L BNN
+F 4 "DW01A" H -3675 1950 50  0001 L BNN "Field4"
+F 5 "DW01A" H -3675 1950 50  0001 L BNN "Field5"
+	1    -3675 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A45FF
+P -4975 1650
+AR Path="/5E7A45FF" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A45FF" Ref="R?"  Part="1" 
+F 0 "R?" H -5000 1825 45  0000 C CNN
+F 1 "100R" H -4975 1750 45  0000 C CNN
+F 2 "0805" H -4975 1800 20  0001 C CNN
+F 3 "" H -4975 1650 60  0001 C CNN
+F 4 " " H -4975 1771 60  0000 C CNN "Field4"
+	1    -4975 1650
+	1    0    0    -1  
+$EndComp
+NoConn ~ -4275 1950
+$Comp
+L Device:C C?
+U 1 1 5E7A4606
+P -4700 1950
+AR Path="/5E7A4606" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4606" Ref="C?"  Part="1" 
+F 0 "C?" H -4585 1996 50  0000 L CNN
+F 1 "0.1uF" H -4585 1905 50  0000 L CNN
+F 2 "" H -4662 1800 50  0001 C CNN
+F 3 "~" H -4700 1950 50  0001 C CNN
+	1    -4700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4775 1650 -4700 1650
+Wire Wire Line
+	-4700 1800 -4700 1650
+Connection ~ -4700 1650
+Wire Wire Line
+	-4700 2100 -4700 2250
+Connection ~ -4700 2250
+Wire Wire Line
+	-4700 1650 -4275 1650
+Wire Wire Line
+	-4700 2250 -4350 2250
+Wire Wire Line
+	-4350 2250 -4350 1375
+Wire Wire Line
+	-4350 1375 -2950 1375
+Wire Wire Line
+	-2950 1375 -2950 1650
+Wire Wire Line
+	-2950 1650 -3075 1650
+Connection ~ -4350 2250
+Wire Wire Line
+	-4350 2250 -4275 2250
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4619
+P -2325 2225
+AR Path="/5E7A4619" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4619" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 2350 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -2100 2050 50  0000 L CNN
+F 2 "" H -2125 2325 50  0001 C CNN
+F 3 "~" H -2325 2225 50  0001 C CNN
+	1    -2325 2225
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4620
+P -2850 2425
+AR Path="/5E7A4620" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4620" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 2600 45  0000 C CNN
+F 1 "510K" H -2850 2525 45  0000 C CNN
+F 2 "0805" H -2850 2575 20  0001 C CNN
+F 3 "" H -2850 2425 60  0001 C CNN
+F 4 " " H -2850 2546 60  0000 C CNN "Field4"
+	1    -2850 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 2425 -3050 2425
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4627
+P -2325 1625
+AR Path="/5E7A4627" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4627" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 1775 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -2088 1625 50  0000 C CNN
+F 2 "" H -2125 1725 50  0001 C CNN
+F 3 "~" H -2325 1625 50  0001 C CNN
+	1    -2325 1625
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A462E
+P -2850 1950
+AR Path="/5E7A462E" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A462E" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 2125 45  0000 C CNN
+F 1 "510K" H -2850 2050 45  0000 C CNN
+F 2 "0805" H -2850 2100 20  0001 C CNN
+F 3 "" H -2850 1950 60  0001 C CNN
+F 4 " " H -2850 2071 60  0000 C CNN "Field4"
+	1    -2850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 1950 -3050 1950
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4636
+P -1675 2250
+AR Path="/5E7A4636" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4636" Ref="R?"  Part="1" 
+F 0 "R?" H -1700 2425 45  0000 C CNN
+F 1 "1M" H -1675 2350 45  0000 C CNN
+F 2 "0805" H -1675 2400 20  0001 C CNN
+F 3 "" H -1675 2250 60  0001 C CNN
+F 4 " " H -1675 2371 60  0000 C CNN "Field4"
+	1    -1675 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A463D
+P -2000 2700
+AR Path="/5E7A463D" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A463D" Ref="R?"  Part="1" 
+F 0 "R?" H -2025 2875 45  0000 C CNN
+F 1 "1M" H -2000 2800 45  0000 C CNN
+F 2 "0805" H -2000 2850 20  0001 C CNN
+F 3 "" H -2000 2700 60  0001 C CNN
+F 4 " " H -2000 2821 60  0000 C CNN "Field4"
+	1    -2000 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5175 1250 -5175 1650
+Wire Wire Line
+	-5375 2250 -5175 2250
+Wire Wire Line
+	-2125 1525 -1675 1525
+Wire Wire Line
+	-5175 1250 -2650 1250
+Wire Wire Line
+	-2325 1950 -2325 1825
+Wire Wire Line
+	-2650 1525 -2650 1250
+Wire Wire Line
+	-3075 2250 -3075 2425
+Wire Wire Line
+	-2125 2125 -2000 2125
+Wire Wire Line
+	-2650 2425 -2325 2425
+Wire Wire Line
+	-2650 1525 -2525 1525
+Wire Wire Line
+	-2650 1950 -2325 1950
+Wire Wire Line
+	-2650 2125 -2525 2125
+Connection ~ -2650 1525
+Wire Wire Line
+	-2000 2125 -2000 2500
+Wire Wire Line
+	-2000 2900 -2000 3700
+Wire Wire Line
+	-1675 875  -1675 1525
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A4655
+P -3675 3525
+AR Path="/5E7A4655" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4655" Ref="IC?"  Part="1" 
+F 0 "IC?" H -4025 4000 50  0000 C CNN
+F 1 "DW01A" H -3675 3750 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -3675 3525 50  0001 L BNN
+F 3 "C351410" H -3675 3525 50  0001 L BNN
+F 4 "DW01A" H -3675 3525 50  0001 L BNN "Field4"
+F 5 "DW01A" H -3675 3525 50  0001 L BNN "Field5"
+	1    -3675 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A465C
+P -4975 3225
+AR Path="/5E7A465C" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A465C" Ref="R?"  Part="1" 
+F 0 "R?" H -5000 3400 45  0000 C CNN
+F 1 "100R" H -4975 3325 45  0000 C CNN
+F 2 "0805" H -4975 3375 20  0001 C CNN
+F 3 "" H -4975 3225 60  0001 C CNN
+F 4 " " H -4975 3346 60  0000 C CNN "Field4"
+	1    -4975 3225
+	1    0    0    -1  
+$EndComp
+NoConn ~ -4275 3525
+$Comp
+L Device:C C?
+U 1 1 5E7A4663
+P -4700 3525
+AR Path="/5E7A4663" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4663" Ref="C?"  Part="1" 
+F 0 "C?" H -4585 3571 50  0000 L CNN
+F 1 "0.1uF" H -4585 3480 50  0000 L CNN
+F 2 "" H -4662 3375 50  0001 C CNN
+F 3 "~" H -4700 3525 50  0001 C CNN
+	1    -4700 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4775 3225 -4700 3225
+Wire Wire Line
+	-4700 3375 -4700 3225
+Connection ~ -4700 3225
+Wire Wire Line
+	-4700 3675 -4700 3825
+Connection ~ -4700 3825
+Wire Wire Line
+	-4700 3225 -4275 3225
+Wire Wire Line
+	-4700 3825 -4350 3825
+Wire Wire Line
+	-4350 3825 -4350 2950
+Wire Wire Line
+	-4350 2950 -2950 2950
+Wire Wire Line
+	-2950 2950 -2950 3225
+Wire Wire Line
+	-2950 3225 -3075 3225
+Connection ~ -4350 3825
+Wire Wire Line
+	-4350 3825 -4275 3825
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4676
+P -2325 3800
+AR Path="/5E7A4676" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4676" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 3925 50  0000 L CNN
+F 1 "Q_PNP_BCE" V -2100 3625 50  0000 L CNN
+F 2 "" H -2125 3900 50  0001 C CNN
+F 3 "~" H -2325 3800 50  0001 C CNN
+	1    -2325 3800
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A467D
+P -2850 4000
+AR Path="/5E7A467D" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A467D" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 4175 45  0000 C CNN
+F 1 "510K" H -2850 4100 45  0000 C CNN
+F 2 "0805" H -2850 4150 20  0001 C CNN
+F 3 "" H -2850 4000 60  0001 C CNN
+F 4 " " H -2850 4121 60  0000 C CNN "Field4"
+	1    -2850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 4000 -3050 4000
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A4684
+P -2325 3200
+AR Path="/5E7A4684" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4684" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 3350 50  0000 C CNN
+F 1 "Q_PNP_BCE" V -2088 3200 50  0000 C CNN
+F 2 "" H -2125 3300 50  0001 C CNN
+F 3 "~" H -2325 3200 50  0001 C CNN
+	1    -2325 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A468B
+P -2850 3525
+AR Path="/5E7A468B" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A468B" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 3700 45  0000 C CNN
+F 1 "510K" H -2850 3625 45  0000 C CNN
+F 2 "0805" H -2850 3675 20  0001 C CNN
+F 3 "" H -2850 3525 60  0001 C CNN
+F 4 " " H -2850 3646 60  0000 C CNN "Field4"
+	1    -2850 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 3525 -3050 3525
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4693
+P -1675 3825
+AR Path="/5E7A4693" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4693" Ref="R?"  Part="1" 
+F 0 "R?" H -1700 4000 45  0000 C CNN
+F 1 "1M" H -1675 3925 45  0000 C CNN
+F 2 "0805" H -1675 3975 20  0001 C CNN
+F 3 "" H -1675 3825 60  0001 C CNN
+F 4 " " H -1675 3946 60  0000 C CNN "Field4"
+	1    -1675 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A469A
+P -2000 4275
+AR Path="/5E7A469A" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A469A" Ref="R?"  Part="1" 
+F 0 "R?" H -2025 4450 45  0000 C CNN
+F 1 "1M" H -2000 4375 45  0000 C CNN
+F 2 "0805" H -2000 4425 20  0001 C CNN
+F 3 "" H -2000 4275 60  0001 C CNN
+F 4 " " H -2000 4396 60  0000 C CNN "Field4"
+	1    -2000 4275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5175 2825 -5175 3225
+Wire Wire Line
+	-5375 3825 -5175 3825
+Wire Wire Line
+	-2125 3100 -1675 3100
+Wire Wire Line
+	-5175 2825 -2650 2825
+Wire Wire Line
+	-2325 3525 -2325 3400
+Wire Wire Line
+	-2650 3100 -2650 2825
+Wire Wire Line
+	-3075 3825 -3075 4000
+Wire Wire Line
+	-2125 3700 -2000 3700
+Wire Wire Line
+	-2650 4000 -2325 4000
+Wire Wire Line
+	-2650 3100 -2525 3100
+Wire Wire Line
+	-2650 3525 -2325 3525
+Wire Wire Line
+	-2650 3700 -2525 3700
+Connection ~ -2650 3100
+Wire Wire Line
+	-2000 3700 -2000 4075
+Wire Wire Line
+	-2000 4475 -2000 5275
+Wire Wire Line
+	-1675 2450 -1675 3100
+$Comp
+L DW01A:DW01A IC?
+U 1 1 5E7A46B2
+P -3675 5100
+AR Path="/5E7A46B2" Ref="IC?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A46B2" Ref="IC?"  Part="1" 
+F 0 "IC?" H -4025 5575 50  0000 C CNN
+F 1 "DW01A" H -3675 5325 50  0000 C CNN
+F 2 "DW01A:SOT23-6" H -3675 5100 50  0001 L BNN
+F 3 "C351410" H -3675 5100 50  0001 L BNN
+F 4 "DW01A" H -3675 5100 50  0001 L BNN "Field4"
+F 5 "DW01A" H -3675 5100 50  0001 L BNN "Field5"
+	1    -3675 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A46B9
+P -4975 4800
+AR Path="/5E7A46B9" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A46B9" Ref="R?"  Part="1" 
+F 0 "R?" H -5000 4975 45  0000 C CNN
+F 1 "100R" H -4975 4900 45  0000 C CNN
+F 2 "0805" H -4975 4950 20  0001 C CNN
+F 3 "" H -4975 4800 60  0001 C CNN
+F 4 " " H -4975 4921 60  0000 C CNN "Field4"
+	1    -4975 4800
+	1    0    0    -1  
+$EndComp
+NoConn ~ -4275 5100
+$Comp
+L Device:C C?
+U 1 1 5E7A46C0
+P -4700 5100
+AR Path="/5E7A46C0" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A46C0" Ref="C?"  Part="1" 
+F 0 "C?" H -4585 5146 50  0000 L CNN
+F 1 "0.1uF" H -4585 5055 50  0000 L CNN
+F 2 "" H -4662 4950 50  0001 C CNN
+F 3 "~" H -4700 5100 50  0001 C CNN
+	1    -4700 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4775 4800 -4700 4800
+Wire Wire Line
+	-4700 4950 -4700 4800
+Connection ~ -4700 4800
+Connection ~ -4700 5400
+Wire Wire Line
+	-4700 4800 -4275 4800
+Wire Wire Line
+	-2950 4800 -3075 4800
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A46CC
+P -2325 5375
+AR Path="/5E7A46CC" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A46CC" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 5500 50  0000 L CNN
+F 1 "PNP" V -2125 5300 50  0000 L CNN
+F 2 "" H -2125 5475 50  0001 C CNN
+F 3 "~" H -2325 5375 50  0001 C CNN
+	1    -2325 5375
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A46D3
+P -2850 5575
+AR Path="/5E7A46D3" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A46D3" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 5750 45  0000 C CNN
+F 1 "510K" H -2850 5675 45  0000 C CNN
+F 2 "0805" H -2850 5725 20  0001 C CNN
+F 3 "" H -2850 5575 60  0001 C CNN
+F 4 " " H -2850 5696 60  0000 C CNN "Field4"
+	1    -2850 5575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 5575 -3050 5575
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5E7A46DA
+P -2325 4775
+AR Path="/5E7A46DA" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A46DA" Ref="Q?"  Part="1" 
+F 0 "Q?" V -2175 4925 50  0000 C CNN
+F 1 "PNP" V -2125 4775 50  0000 C CNN
+F 2 "" H -2125 4875 50  0001 C CNN
+F 3 "~" H -2325 4775 50  0001 C CNN
+	1    -2325 4775
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A46E1
+P -2850 5100
+AR Path="/5E7A46E1" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A46E1" Ref="R?"  Part="1" 
+F 0 "R?" H -2875 5275 45  0000 C CNN
+F 1 "510K" H -2850 5200 45  0000 C CNN
+F 2 "0805" H -2850 5250 20  0001 C CNN
+F 3 "" H -2850 5100 60  0001 C CNN
+F 4 " " H -2850 5221 60  0000 C CNN "Field4"
+	1    -2850 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3075 5100 -3050 5100
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A46E9
+P -1675 5400
+AR Path="/5E7A46E9" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A46E9" Ref="R?"  Part="1" 
+F 0 "R?" H -1700 5575 45  0000 C CNN
+F 1 "1M" H -1675 5500 45  0000 C CNN
+F 2 "0805" H -1675 5550 20  0001 C CNN
+F 3 "" H -1675 5400 60  0001 C CNN
+F 4 " " H -1675 5521 60  0000 C CNN "Field4"
+	1    -1675 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A46F0
+P -2000 5850
+AR Path="/5E7A46F0" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A46F0" Ref="R?"  Part="1" 
+F 0 "R?" H -2025 6025 45  0000 C CNN
+F 1 "1M" H -2000 5950 45  0000 C CNN
+F 2 "0805" H -2000 6000 20  0001 C CNN
+F 3 "" H -2000 5850 60  0001 C CNN
+F 4 " " H -2000 5971 60  0000 C CNN "Field4"
+	1    -2000 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5175 4400 -5175 4800
+Wire Wire Line
+	-5375 5400 -5175 5400
+Wire Wire Line
+	-2125 4675 -1675 4675
+Wire Wire Line
+	-5175 4400 -2650 4400
+Wire Wire Line
+	-2325 5100 -2325 4975
+Wire Wire Line
+	-2650 4675 -2650 4400
+Wire Wire Line
+	-3075 5400 -3075 5575
+Wire Wire Line
+	-2125 5275 -2000 5275
+Wire Wire Line
+	-2650 5575 -2325 5575
+Wire Wire Line
+	-2650 4675 -2525 4675
+Wire Wire Line
+	-2650 5100 -2325 5100
+Wire Wire Line
+	-2650 5275 -2525 5275
+Connection ~ -2650 4675
+Wire Wire Line
+	-2000 5275 -2000 5650
+Wire Wire Line
+	-1675 4025 -1675 4675
+Connection ~ -6350 2975
+Wire Wire Line
+	-6350 2975 -6350 3500
+Connection ~ -6675 3575
+Connection ~ -6350 1400
+Wire Wire Line
+	-6350 1400 -6350 1925
+Connection ~ -6675 2000
+Connection ~ -6350 4550
+Wire Wire Line
+	-6350 4550 -6350 5075
+Connection ~ -6675 5150
+Connection ~ -6350 6125
+Wire Wire Line
+	-6350 6125 -6350 6650
+Connection ~ -6675 6725
+Connection ~ -6350 7700
+Wire Wire Line
+	-6350 7700 -6350 8225
+Connection ~ -6675 8300
+Connection ~ -1675 -3200
+Wire Wire Line
+	-1675 -3200 -1675 -2675
+Connection ~ -2000 -2600
+Connection ~ -1675 -1625
+Wire Wire Line
+	-1675 -1625 -1675 -1100
+Connection ~ -2000 -1025
+Connection ~ -1675 -50 
+Wire Wire Line
+	-1675 -50  -1675 475 
+Connection ~ -2000 550 
+Connection ~ -1675 1525
+Wire Wire Line
+	-1675 1525 -1675 2050
+Connection ~ -2000 2125
+Connection ~ -1675 3100
+Wire Wire Line
+	-1675 3100 -1675 3625
+Connection ~ -2000 3700
+Connection ~ -1675 4675
+Wire Wire Line
+	-1675 4675 -1675 5200
+Connection ~ -2000 5275
+Wire Wire Line
+	-9850 -3575 -9850 -4150
+Connection ~ -9850 -3575
+Connection ~ -9850 -4150
+Wire Wire Line
+	-9850 -4150 -9375 -4150
+Connection ~ -9850 -5150
+Wire Wire Line
+	-9850 -2000 -9850 -2575
+Connection ~ -9850 -2000
+Connection ~ -9850 -2575
+Wire Wire Line
+	-9850 -2575 -9375 -2575
+Wire Wire Line
+	-9850 -425 -9850 -1000
+Connection ~ -9850 -425
+Connection ~ -9850 -1000
+Wire Wire Line
+	-9850 -1000 -9375 -1000
+Wire Wire Line
+	-9850 1125 -9850 575 
+Connection ~ -9850 1125
+Connection ~ -9850 575 
+Wire Wire Line
+	-9850 575  -9375 575 
+Wire Wire Line
+	-9850 2700 -9850 2125
+Connection ~ -9850 2700
+Connection ~ -9850 2125
+Wire Wire Line
+	-9850 2125 -9375 2125
+Wire Wire Line
+	-9850 4275 -9850 3700
+Connection ~ -9850 4275
+Connection ~ -9850 3700
+Wire Wire Line
+	-9850 3700 -9375 3700
+Wire Wire Line
+	-9850 5850 -9850 5275
+Connection ~ -9850 5850
+Connection ~ -9850 5275
+Wire Wire Line
+	-9850 5275 -9375 5275
+Wire Wire Line
+	-9850 7425 -9850 6850
+Connection ~ -9850 7425
+Connection ~ -9850 6850
+Wire Wire Line
+	-9850 6850 -9375 6850
+Text GLabel -10050 -5150 0    50   Input ~ 0
+CH16
+Text GLabel -10050 -4150 0    50   Input ~ 0
+CH15
+Text GLabel -10050 -2575 0    50   Input ~ 0
+CH14
+Text GLabel -10075 -5275 0    50   Input ~ 0
+B+
+Wire Wire Line
+	-10075 -5275 -9850 -5275
+Wire Wire Line
+	-9850 -5275 -9850 -5150
+Text GLabel -10050 -1000 0    50   Input ~ 0
+CH13
+Text GLabel -10050 575  0    50   Input ~ 0
+CH12
+Text GLabel -10050 2125 0    50   Input ~ 0
+CH11
+Text GLabel -10050 3700 0    50   Input ~ 0
+CH10
+Text GLabel -10050 5275 0    50   Input ~ 0
+CH9
+Text GLabel -10050 6850 0    50   Input ~ 0
+CH8
+Text GLabel -10050 8425 0    50   Input ~ 0
+CH7
+Text GLabel -5375 -4050 0    50   Input ~ 0
+CH6
+Text GLabel -5375 -2475 0    50   Input ~ 0
+CH5
+Wire Wire Line
+	-5175 -3475 -5175 -4050
+Connection ~ -5175 -3475
+Wire Wire Line
+	-5175 -4050 -4700 -4050
+Wire Wire Line
+	-5175 -1900 -5175 -2475
+Connection ~ -5175 -1900
+Connection ~ -5175 -2475
+Wire Wire Line
+	-5175 -2475 -4700 -2475
+Wire Wire Line
+	-5175 -325 -5175 -900
+Connection ~ -5175 -325
+Connection ~ -5175 -900
+Wire Wire Line
+	-5175 -900 -4700 -900
+Wire Wire Line
+	-5175 1250 -5175 675 
+Connection ~ -5175 1250
+Connection ~ -5175 675 
+Wire Wire Line
+	-5175 675  -4700 675 
+Wire Wire Line
+	-5175 2825 -5175 2250
+Connection ~ -5175 2825
+Connection ~ -5175 2250
+Wire Wire Line
+	-5175 2250 -4700 2250
+Connection ~ -5175 -4050
+Connection ~ -5175 -5050
+Text GLabel -5375 -5050 0    50   Input ~ 0
+CH7
+Text GLabel -5375 -900 0    50   Input ~ 0
+CH4
+Text GLabel -5375 675  0    50   Input ~ 0
+CH3
+Text GLabel -5375 2250 0    50   Input ~ 0
+CH2
+Text GLabel -5375 3825 0    50   Input ~ 0
+CH1
+Text GLabel -5375 5400 0    50   Input ~ 0
+CH0
+Text GLabel -5400 5600 0    50   Input ~ 0
+B-
+Wire Wire Line
+	-5400 5600 -5175 5600
+Wire Wire Line
+	-5175 4400 -5175 3825
+Connection ~ -5175 4400
+Connection ~ -5175 3825
+Wire Wire Line
+	-5175 3825 -4700 3825
+Wire Wire Line
+	-5175 5600 -5175 5400
+Connection ~ -5175 5400
+Wire Wire Line
+	-5175 5400 -4700 5400
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A477B
+P -5175 5800
+AR Path="/5E7A477B" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A477B" Ref="R?"  Part="1" 
+F 0 "R?" H -5200 5975 45  0000 C CNN
+F 1 "0.002R" H -5175 5900 45  0000 C CNN
+F 2 "0805" H -5175 5950 20  0001 C CNN
+F 3 "" H -5175 5800 60  0001 C CNN
+F 4 " " H -5175 5921 60  0000 C CNN "Field4"
+	1    -5175 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4782
+P -4350 5800
+AR Path="/5E7A4782" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4782" Ref="R?"  Part="1" 
+F 0 "R?" H -4375 5975 45  0000 C CNN
+F 1 "1K" H -4350 5900 45  0000 C CNN
+F 2 "0805" H -4350 5950 20  0001 C CNN
+F 3 "" H -4350 5800 60  0001 C CNN
+F 4 " " H -4350 5921 60  0000 C CNN "Field4"
+	1    -4350 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2950 4525 -2950 4800
+Wire Wire Line
+	-4350 4525 -2950 4525
+Wire Wire Line
+	-4350 5600 -4350 4525
+Wire Wire Line
+	-5175 6000 -4350 6000
+Wire Wire Line
+	-5175 6000 -5175 6225
+Connection ~ -5175 6000
+$Comp
+L sd04-rescue:MOSFET_PCH_DUAL-DMP2240UDM-SparkFun-DiscreteSemi Q?
+U 1 1 5E7A478F
+P -5075 7300
+AR Path="/5E7A478F" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A478F" Ref="Q?"  Part="1" 
+F 0 "Q?" H -4911 7395 45  0000 L CNN
+F 1 "MOSFET_PCH_DUAL-DMP2240UDM" H -4911 7311 45  0000 L CNN
+F 2 "SOT26" H -5075 7550 20  0001 C CNN
+F 3 "" H -5075 7300 50  0001 C CNN
+F 4 "TRANS-12444" H -4911 7216 60  0000 L CNN "Field4"
+	1    -5075 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L sd04-rescue:MOSFET_PCH_DUAL-DMP2240UDM-SparkFun-DiscreteSemi Q?
+U 1 1 5E7A4796
+P -5075 6425
+AR Path="/5E7A4796" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4796" Ref="Q?"  Part="1" 
+F 0 "Q?" H -4911 6520 45  0000 L CNN
+F 1 "MOSFET_PCH_DUAL-DMP2240UDM" H -4911 6436 45  0000 L CNN
+F 2 "SOT26" H -5075 6675 20  0001 C CNN
+F 3 "" H -5075 6425 50  0001 C CNN
+F 4 "TRANS-12444" H -4911 6341 60  0000 L CNN "Field4"
+	1    -5075 6425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A479D
+P -4775 6725
+AR Path="/5E7A479D" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A479D" Ref="R?"  Part="1" 
+F 0 "R?" H -4800 6900 45  0000 C CNN
+F 1 "1M" H -4775 6825 45  0000 C CNN
+F 2 "0805" H -4775 6875 20  0001 C CNN
+F 3 "" H -4775 6725 60  0001 C CNN
+F 4 " " H -4775 6846 60  0000 C CNN "Field4"
+	1    -4775 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5175 6725 -4975 6725
+Wire Wire Line
+	-5175 7100 -5175 6725
+Wire Wire Line
+	-5175 6625 -5175 6725
+Connection ~ -5175 6725
+$Comp
+L Device:C C?
+U 1 1 5E7A47A7
+P -4300 6575
+AR Path="/5E7A47A7" Ref="C?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A47A7" Ref="C?"  Part="1" 
+F 0 "C?" H -4185 6621 50  0000 L CNN
+F 1 "0.1uF" H -4185 6530 50  0000 L CNN
+F 2 "" H -4262 6425 50  0001 C CNN
+F 3 "~" H -4300 6575 50  0001 C CNN
+	1    -4300 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 5E7A47AD
+P -3800 6425
+AR Path="/5E7A47AD" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A47AD" Ref="Q?"  Part="1" 
+F 0 "Q?" H -3609 6471 50  0000 L CNN
+F 1 "NPN" H -3609 6380 50  0000 L CNN
+F 2 "" H -3600 6525 50  0001 C CNN
+F 3 "~" H -3800 6425 50  0001 C CNN
+	1    -3800 6425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4575 6725 -4575 6425
+Wire Wire Line
+	-4575 6425 -4300 6425
+Connection ~ -4300 6425
+Wire Wire Line
+	-4300 6425 -4000 6425
+Wire Wire Line
+	-4300 6725 -3700 6725
+Wire Wire Line
+	-3700 6725 -3700 6625
+Connection ~ -3700 6725
+Wire Wire Line
+	-4875 6525 -4875 6225
+Wire Wire Line
+	-4875 6225 -3700 6225
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A47BD
+P -3025 6475
+AR Path="/5E7A47BD" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A47BD" Ref="R?"  Part="1" 
+F 0 "R?" H -3050 6650 45  0000 C CNN
+F 1 "10M" H -3025 6575 45  0000 C CNN
+F 2 "0805" H -3025 6625 20  0001 C CNN
+F 3 "" H -3025 6475 60  0001 C CNN
+F 4 " " H -3025 6596 60  0000 C CNN "Field4"
+	1    -3025 6475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A47C4
+P -2275 6725
+AR Path="/5E7A47C4" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A47C4" Ref="R?"  Part="1" 
+F 0 "R?" H -2300 6900 45  0000 C CNN
+F 1 "1M" H -2275 6825 45  0000 C CNN
+F 2 "0805" H -2275 6875 20  0001 C CNN
+F 3 "" H -2275 6725 60  0001 C CNN
+F 4 " " H -2275 6846 60  0000 C CNN "Field4"
+	1    -2275 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2075 6725 -2000 6725
+Wire Wire Line
+	-2000 6725 -2000 6475
+Wire Wire Line
+	-2325 6475 -2000 6475
+Connection ~ -2000 6475
+Wire Wire Line
+	-2000 6475 -2000 6050
+Wire Wire Line
+	-3700 6725 -3325 6725
+Wire Wire Line
+	-3025 6675 -3025 6725
+Connection ~ -3025 6725
+Wire Wire Line
+	-3025 6725 -2625 6725
+Wire Wire Line
+	-2625 6675 -2625 6725
+Connection ~ -2625 6725
+Wire Wire Line
+	-2625 6725 -2475 6725
+Wire Wire Line
+	-2050 6225 -1675 6225
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A47D8
+P -2250 6225
+AR Path="/5E7A47D8" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A47D8" Ref="R?"  Part="1" 
+F 0 "R?" H -2275 6400 45  0000 C CNN
+F 1 "33K" H -2250 6325 45  0000 C CNN
+F 2 "0805" H -2250 6375 20  0001 C CNN
+F 3 "" H -2250 6225 60  0001 C CNN
+F 4 " " H -2250 6346 60  0000 C CNN "Field4"
+	1    -2250 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 5E7A47DE
+P -2525 6475
+AR Path="/5E7A47DE" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A47DE" Ref="Q?"  Part="1" 
+F 0 "Q?" H -2334 6521 50  0000 L CNN
+F 1 "NPN" H -2334 6430 50  0000 L CNN
+F 2 "" H -2325 6575 50  0001 C CNN
+F 3 "~" H -2525 6475 50  0001 C CNN
+	1    -2525 6475
+	-1   0    0    -1  
+$EndComp
+Connection ~ -1675 6225
+Wire Wire Line
+	-1675 5600 -1675 6225
+Wire Wire Line
+	-3700 6225 -3025 6225
+Connection ~ -3700 6225
+Wire Wire Line
+	-3025 6275 -3025 6225
+Connection ~ -3025 6225
+Wire Wire Line
+	-3025 6225 -2625 6225
+Wire Wire Line
+	-2625 6275 -2625 6225
+Connection ~ -2625 6225
+Wire Wire Line
+	-2625 6225 -2450 6225
+Wire Wire Line
+	-4700 6100 -3325 6100
+Wire Wire Line
+	-3325 6100 -3325 6725
+Connection ~ -3325 6725
+Wire Wire Line
+	-3325 6725 -3025 6725
+Wire Wire Line
+	-4700 5400 -4700 6100
+Wire Wire Line
+	-4700 5250 -4700 5400
+Wire Wire Line
+	-5175 7500 -5175 7700
+Wire Wire Line
+	-5175 7700 -3700 7700
+Wire Wire Line
+	-4700 5400 -4275 5400
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A47F8
+P -3700 7425
+AR Path="/5E7A47F8" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A47F8" Ref="R?"  Part="1" 
+F 0 "R?" H -3725 7600 45  0000 C CNN
+F 1 "10M" H -3700 7525 45  0000 C CNN
+F 2 "0805" H -3700 7575 20  0001 C CNN
+F 3 "" H -3700 7425 60  0001 C CNN
+F 4 " " H -3700 7546 60  0000 C CNN "Field4"
+	1    -3700 7425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A47FF
+P -3350 7425
+AR Path="/5E7A47FF" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A47FF" Ref="R?"  Part="1" 
+F 0 "R?" H -3375 7600 45  0000 C CNN
+F 1 "10M" H -3350 7525 45  0000 C CNN
+F 2 "0805" H -3350 7575 20  0001 C CNN
+F 3 "" H -3350 7425 60  0001 C CNN
+F 4 " " H -3350 7546 60  0000 C CNN "Field4"
+	1    -3350 7425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 5E7A4805
+P -2950 7425
+AR Path="/5E7A4805" Ref="Q?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4805" Ref="Q?"  Part="1" 
+F 0 "Q?" H -2759 7471 50  0000 L CNN
+F 1 "NPN" H -2759 7380 50  0000 L CNN
+F 2 "" H -2750 7525 50  0001 C CNN
+F 3 "~" H -2950 7425 50  0001 C CNN
+	1    -2950 7425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A480C
+P -2275 7200
+AR Path="/5E7A480C" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A480C" Ref="R?"  Part="1" 
+F 0 "R?" H -2300 7375 45  0000 C CNN
+F 1 "33K" H -2275 7300 45  0000 C CNN
+F 2 "0805" H -2275 7350 20  0001 C CNN
+F 3 "" H -2275 7200 60  0001 C CNN
+F 4 " " H -2275 7321 60  0000 C CNN "Field4"
+	1    -2275 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3050 7625 -3050 7700
+Connection ~ -3050 7700
+Wire Wire Line
+	-3050 7700 -2625 7700
+Wire Wire Line
+	-3350 7625 -3350 7700
+Connection ~ -3350 7700
+Wire Wire Line
+	-3350 7700 -3050 7700
+Wire Wire Line
+	-3700 7625 -3700 7700
+Connection ~ -3700 7700
+Wire Wire Line
+	-3700 7700 -3350 7700
+Wire Wire Line
+	-3350 7200 -3350 7225
+Connection ~ -3350 7200
+Wire Wire Line
+	-3350 7200 -3050 7200
+Wire Wire Line
+	-3050 7225 -3050 7200
+Connection ~ -3050 7200
+Wire Wire Line
+	-3050 7200 -2475 7200
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 5E7A4822
+P -2275 7700
+AR Path="/5E7A4822" Ref="R?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4822" Ref="R?"  Part="1" 
+F 0 "R?" H -2300 7875 45  0000 C CNN
+F 1 "1M" H -2275 7800 45  0000 C CNN
+F 2 "0805" H -2275 7850 20  0001 C CNN
+F 3 "" H -2275 7700 60  0001 C CNN
+F 4 " " H -2275 7821 60  0000 C CNN "Field4"
+	1    -2275 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2625 7700 -2625 8025
+Connection ~ -2625 7700
+Wire Wire Line
+	-2625 7700 -2475 7700
+Wire Wire Line
+	-4875 7200 -3350 7200
+Wire Wire Line
+	-3325 6725 -3325 7025
+Wire Wire Line
+	-3325 7025 -3700 7025
+Wire Wire Line
+	-3700 7025 -3700 7225
+Wire Wire Line
+	-1675 6225 -1675 7425
+Wire Wire Line
+	-2750 7425 -1675 7425
+Connection ~ -1675 7425
+Wire Wire Line
+	-1675 7425 -1675 7700
+Wire Wire Line
+	-2075 7700 -1675 7700
+$Comp
+L Driver_FET:ZXGD3006E6 U?
+U 1 1 5E7A4834
+P -5050 9625
+AR Path="/5E7A4834" Ref="U?"  Part="1" 
+AR Path="/5E5A8AA9/5E7A4834" Ref="U?"  Part="1" 
+F 0 "U?" H -5000 10106 50  0000 C CNN
+F 1 "ZXGD3006E6" H -5000 10015 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H -5050 10125 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZXGD3006E6.pdf" H -5050 9625 50  0001 C CNN
+	1    -5050 9625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6675 9075 -6675 9150
+Wire Wire Line
+	-6350 8625 -6350 9150
+Text Label -6675 9150 2    50   ~ 0
+CH7-prob1
+Text Label -6350 9150 0    50   ~ 0
+CH7-prob2
+Text Label -2000 -5125 0    50   ~ 0
+CH7-prob1
+Text Label -1675 -4950 0    50   ~ 0
+CH7-prob2
+Wire Wire Line
+	-2000 -5125 -2000 -4175
+Connection ~ -2000 -4175
+Wire Wire Line
+	-1675 -4775 -1675 -4950
+Connection ~ -1675 -4775
+Text GLabel -7100 -5275 2    50   Input ~ 0
+P+
+Wire Wire Line
+	-7100 -5275 -7325 -5275
+Text GLabel -1150 7200 2    50   Input ~ 0
+P+
+Wire Wire Line
+	-2075 7200 -1150 7200
+Text GLabel -1150 8025 2    50   Input ~ 0
+P-
+Wire Wire Line
+	-2625 8025 -1150 8025
+Text Notes -1625 7125 0    50   ~ 0
+CHARGE/DISCHARGE+
+Text Notes -1625 7950 0    50   ~ 0
+CHARGE/DISCHARGE-
+Wire Wire Line
+	-7325 -5275 -7325 -5150
+Connection ~ -7325 -5150
+Wire Wire Line
+	-7325 -4875 -7325 -4275
+Wire Wire Line
+	-2650 -4775 -2650 -4175
+Wire Wire Line
+	-7325 -3300 -7325 -2700
+Wire Wire Line
+	-2650 -3200 -2650 -2600
+Wire Wire Line
+	-7325 -1725 -7325 -1125
+Wire Wire Line
+	-2650 -1625 -2650 -1025
+Wire Wire Line
+	-7325 -150 -7325 450 
+Wire Wire Line
+	-2650 -50  -2650 550 
+Wire Wire Line
+	-7325 1400 -7325 2000
+Wire Wire Line
+	-2650 1525 -2650 2125
+Wire Wire Line
+	-7325 4550 -7325 5150
+Wire Wire Line
+	-7325 6125 -7325 6725
+Wire Wire Line
+	-7325 7700 -7325 8300
+Wire Wire Line
+	-2650 4675 -2650 5275
+Wire Wire Line
+	-2650 3100 -2650 3700
+Wire Wire Line
+	-7325 2975 -7325 3575
+$Comp
+L HY2213-BB3A:HY2213-BB3A U?
+U 1 1 6668ACFB
+P 5925 5450
+AR Path="/5E5A8AA9/6668ACFB" Ref="U?"  Part="1" 
+AR Path="/6668ACFB" Ref="U?"  Part="1" 
+F 0 "U?" H 6125 5465 50  0000 C CNN
+F 1 "HY2213-BB3A" H 6125 5374 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5725 5350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf" H 5725 5350 50  0001 C CNN
+	1    5925 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SLS2302:SLS2302 U?
+U 1 1 6668AD01
+P 4875 5700
+AR Path="/5E5A8AA9/6668AD01" Ref="U?"  Part="1" 
+AR Path="/6668AD01" Ref="U?"  Part="1" 
+F 0 "U?" H 5079 5746 50  0000 L CNN
+F 1 "SLS2302" H 5079 5655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5075 5800 50  0001 C CNN
+F 3 "~" H 4875 5700 50  0001 C CNN
+	1    4875 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 6668AD08
+P 5075 5125
+AR Path="/5E5A8AA9/6668AD08" Ref="R?"  Part="1" 
+AR Path="/6668AD08" Ref="R?"  Part="1" 
+F 0 "R?" V 5025 5250 45  0000 C CNN
+F 1 "150R" V 5100 5275 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5075 5275 20  0001 C CNN
+F 3 "" H 5075 5125 60  0001 C CNN
+F 4 " " H 4925 5275 60  0000 C CNN "Field4"
+	1    5075 5125
+	0    -1   1    0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 6668AD0F
+P 4775 5125
+AR Path="/5E5A8AA9/6668AD0F" Ref="R?"  Part="1" 
+AR Path="/6668AD0F" Ref="R?"  Part="1" 
+F 0 "R?" V 4725 5250 45  0000 C CNN
+F 1 "150R" V 4800 5275 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4775 5275 20  0001 C CNN
+F 3 "" H 4775 5125 60  0001 C CNN
+F 4 " " H 4625 5275 60  0000 C CNN "Field4"
+	1    4775 5125
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5075 5400 5075 5325
+Wire Wire Line
+	4775 4925 4775 4825
+Wire Wire Line
+	5075 4925 5075 4825
+Wire Wire Line
+	4775 5900 4775 6100
+Wire Wire Line
+	4775 6100 6350 6100
+Wire Wire Line
+	6350 6100 6350 5850
+Wire Wire Line
+	6350 5850 6275 5850
+$Comp
+L Device:C C?
+U 1 1 6668AD1C
+P 6700 5900
+AR Path="/5E5A8AA9/6668AD1C" Ref="C?"  Part="1" 
+AR Path="/6668AD1C" Ref="C?"  Part="1" 
+F 0 "C?" H 6815 5946 50  0000 L CNN
+F 1 "0.1uF" H 6815 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 5750 50  0001 C CNN
+F 3 "~" H 6700 5900 50  0001 C CNN
+	1    6700 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 6668AD23
+P 6700 5100
+AR Path="/5E5A8AA9/6668AD23" Ref="R?"  Part="1" 
+AR Path="/6668AD23" Ref="R?"  Part="1" 
+F 0 "R?" V 6650 5225 45  0000 C CNN
+F 1 "100R" V 6725 5250 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 5250 20  0001 C CNN
+F 3 "" H 6700 5100 60  0001 C CNN
+F 4 " " H 6550 5250 60  0000 C CNN "Field4"
+	1    6700 5100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6700 5700 6700 5750
+Wire Wire Line
+	6700 6050 6700 6100
+Wire Wire Line
+	6700 5700 6700 5300
+Connection ~ 6700 5700
+Wire Wire Line
+	6700 4900 6700 4825
+Wire Wire Line
+	5075 4825 4775 4825
+Wire Wire Line
+	4775 5325 4775 5400
+Wire Wire Line
+	5075 5400 4775 5400
+Connection ~ 4775 5400
+Wire Wire Line
+	4775 5400 4775 5500
+Wire Wire Line
+	5175 5700 5075 5700
+Text GLabel 4450 6100 1    50   Input ~ 0
+B-
+Connection ~ 4775 6100
+Connection ~ 4775 4825
+Wire Wire Line
+	6700 4825 5075 4825
+Connection ~ 5075 4825
+Wire Wire Line
+	6700 5700 6275 5700
+Wire Wire Line
+	6700 6100 6350 6100
+Connection ~ 6350 6100
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 6668AD3D
+P 4175 5050
+AR Path="/5E5A8AA9/6668AD3D" Ref="R?"  Part="1" 
+AR Path="/6668AD3D" Ref="R?"  Part="1" 
+F 0 "R?" V 4125 5175 45  0000 C CNN
+F 1 "100R" V 4200 5200 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4175 5200 20  0001 C CNN
+F 3 "" H 4175 5050 60  0001 C CNN
+F 4 " " H 4025 5200 60  0000 C CNN "Field4"
+	1    4175 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6668AD43
+P 4175 5450
+AR Path="/5E5A8AA9/6668AD43" Ref="C?"  Part="1" 
+AR Path="/6668AD43" Ref="C?"  Part="1" 
+F 0 "C?" H 4290 5496 50  0000 L CNN
+F 1 "0.1uF" H 4290 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4213 5300 50  0001 C CNN
+F 3 "~" H 4175 5450 50  0001 C CNN
+	1    4175 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4175 5300 3750 5300
+Connection ~ 4175 4825
+Wire Wire Line
+	4175 5250 4175 5300
+Wire Wire Line
+	4175 4850 4175 4825
+Connection ~ 4175 5300
+Wire Wire Line
+	3750 5500 3825 5500
+Wire Wire Line
+	3750 5700 3825 5700
+Wire Wire Line
+	4175 5700 4175 6100
+Connection ~ 4175 5700
+Wire Wire Line
+	4175 5600 4175 5700
+$Comp
+L DW01A:DW01A-G IC?
+U 1 1 6668AD53
+P 3150 5250
+AR Path="/5E5A8AA9/6668AD53" Ref="IC?"  Part="1" 
+AR Path="/6668AD53" Ref="IC?"  Part="1" 
+F 0 "IC?" H 3400 5425 50  0000 C CNN
+F 1 "DW01A-G" H 3400 5334 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3200 5300 50  0001 C CNN
+F 3 "" H 3200 5300 50  0001 C CNN
+	1    3150 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 5500 3825 5700
+Connection ~ 3825 5700
+Wire Wire Line
+	3825 5700 4175 5700
+$Comp
+L Transistor_BJT:MMBT3906 Q?
+U 1 1 6668AD5C
+P 2275 5725
+AR Path="/5E5A8AA9/6668AD5C" Ref="Q?"  Part="1" 
+AR Path="/6668AD5C" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2125 5850 50  0000 L CNN
+F 1 "MMBT3906" H 1900 5925 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2475 5650 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 2275 5725 50  0001 L CNN
+	1    2275 5725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:MMBT3906 Q?
+U 1 1 6668AD62
+P 2275 5250
+AR Path="/5E5A8AA9/6668AD62" Ref="Q?"  Part="1" 
+AR Path="/6668AD62" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2150 5375 50  0000 L CNN
+F 1 "MMBT3906" H 1875 5450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2475 5175 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 2275 5250 50  0001 L CNN
+	1    2275 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2175 5450 2175 5500
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 6668AD6A
+P 2750 5250
+AR Path="/5E5A8AA9/6668AD6A" Ref="R?"  Part="1" 
+AR Path="/6668AD6A" Ref="R?"  Part="1" 
+F 0 "R?" H 2800 5350 45  0000 C CNN
+F 1 "510K" H 2750 5150 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2750 5400 20  0001 C CNN
+F 3 "" H 2750 5250 60  0001 C CNN
+F 4 " " H 2600 5400 60  0000 C CNN "Field4"
+	1    2750 5250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 6668AD71
+P 2750 5725
+AR Path="/5E5A8AA9/6668AD71" Ref="R?"  Part="1" 
+AR Path="/6668AD71" Ref="R?"  Part="1" 
+F 0 "R?" H 2800 5825 45  0000 C CNN
+F 1 "510K" H 2750 5625 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2750 5875 20  0001 C CNN
+F 3 "" H 2750 5725 60  0001 C CNN
+F 4 " " H 2600 5875 60  0000 C CNN "Field4"
+	1    2750 5725
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 5250 2550 5250
+Wire Wire Line
+	2475 5725 2550 5725
+Wire Wire Line
+	2950 5725 2950 5600
+Wire Wire Line
+	2950 5600 3050 5600
+Wire Wire Line
+	2950 5250 2950 5400
+Wire Wire Line
+	2950 5400 3050 5400
+Wire Wire Line
+	2175 5500 1925 5500
+Wire Wire Line
+	1925 5500 1925 4825
+Connection ~ 2175 5500
+Wire Wire Line
+	2175 5500 2175 5525
+Wire Wire Line
+	2175 5050 2175 4950
+Wire Wire Line
+	2175 4950 1425 4950
+Wire Wire Line
+	1425 4950 1425 5250
+Wire Wire Line
+	2175 5925 1700 5925
+Wire Wire Line
+	1700 5925 1700 6200
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 6668AD87
+P 1425 5450
+AR Path="/5E5A8AA9/6668AD87" Ref="R?"  Part="1" 
+AR Path="/6668AD87" Ref="R?"  Part="1" 
+F 0 "R?" V 1475 5550 45  0000 C CNN
+F 1 "1M" V 1375 5550 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1425 5600 20  0001 C CNN
+F 3 "" H 1425 5450 60  0001 C CNN
+F 4 " " H 1275 5600 60  0000 C CNN "Field4"
+	1    1425 5450
+	0    1    -1   0   
+$EndComp
+$Comp
+L sd04-rescue:RESISTOR0805-SparkFun-Resistors R?
+U 1 1 6668AD8E
+P 1700 6400
+AR Path="/5E5A8AA9/6668AD8E" Ref="R?"  Part="1" 
+AR Path="/6668AD8E" Ref="R?"  Part="1" 
+F 0 "R?" V 1750 6500 45  0000 C CNN
+F 1 "1M" V 1650 6500 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1700 6550 20  0001 C CNN
+F 3 "" H 1700 6400 60  0001 C CNN
+F 4 " " H 1550 6550 60  0000 C CNN "Field4"
+	1    1700 6400
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4175 6100 4775 6100
+Wire Wire Line
+	4175 4825 4775 4825
+Wire Wire Line
+	1925 4825 4175 4825
+$EndSCHEMATC

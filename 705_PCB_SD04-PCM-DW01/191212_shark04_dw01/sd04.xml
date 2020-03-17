@@ -1,0 +1,3194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\00_Workspace\800_PCB\191212_shark04_dw01\sd04.sch</source>
+    <date>2020/2/28 20:19:15</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SD04_13S</title>
+        <company>SharkDynamics</company>
+        <rev>V0.01</rev>
+        <date>2020-02-28</date>
+        <source>sd04.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U11">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EEFAF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EEFB5</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EEFC3</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EEFD0</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EEFD7</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EEFF2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EEFF8</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EF008</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EF011</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EF017</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EF01F</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EF026</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EF03C</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6EF043</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8400CC</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8400D2</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8400ED</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8400F4</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E84010F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E840115</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E840125</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E84012E</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E840134</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E84013C</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E840143</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E840159</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E840160</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878121</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878127</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878142</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878149</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878164</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E87816A</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E87817A</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878183</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878189</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878191</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878198</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8781AE</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8781B5</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A40C7</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A40CD</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A40E8</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A40EF</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A4109</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A410F</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A411F</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A4128</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A412E</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A4136</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A413D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A4153</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A415A</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE91D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE923</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE93E</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE945</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE95F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE965</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE975</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE97E</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE984</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE98C</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE993</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE9A9</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EE9B0</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E515</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E51B</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E536</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E53D</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E557</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E55D</tstamp>
+    </comp>
+    <comp ref="IC6">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E56D</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E576</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E57C</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E584</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E58B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E5A1</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90E5A8</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9382D3</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9382D9</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9382F4</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9382FB</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E938315</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E93831B</tstamp>
+    </comp>
+    <comp ref="IC7">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E93832B</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E938334</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E93833A</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E938342</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E938349</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E93835F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E938366</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E989462</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E989468</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E989483</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E98948A</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9894A4</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9894AA</tstamp>
+    </comp>
+    <comp ref="IC8">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9894BA</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9894C3</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9894C9</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9894D1</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9894D8</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9894EE</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9894F5</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF45D</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF463</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF47E</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF485</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF49F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF4A5</tstamp>
+    </comp>
+    <comp ref="IC9">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF4B5</tstamp>
+    </comp>
+    <comp ref="Q18">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF4BE</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF4C4</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF4CC</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF4D3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF4E9</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BF4F0</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA0036A</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA00370</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA0038B</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA00392</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA003AC</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA003B2</tstamp>
+    </comp>
+    <comp ref="IC10">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA003C2</tstamp>
+    </comp>
+    <comp ref="Q20">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA003CB</tstamp>
+    </comp>
+    <comp ref="Q19">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA003D1</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA003D9</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA003E0</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA003F6</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA003FD</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F704A</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7050</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F706B</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7072</tstamp>
+    </comp>
+    <comp ref="R98">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F708D</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7093</tstamp>
+    </comp>
+    <comp ref="IC11">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F70A3</tstamp>
+    </comp>
+    <comp ref="Q22">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F70AC</tstamp>
+    </comp>
+    <comp ref="Q21">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F70B2</tstamp>
+    </comp>
+    <comp ref="R89">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F70BA</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F70C1</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F70D7</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F70DE</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F70E7</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F70ED</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7108</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F710F</tstamp>
+    </comp>
+    <comp ref="R99">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7127</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F712D</tstamp>
+    </comp>
+    <comp ref="IC12">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F713D</tstamp>
+    </comp>
+    <comp ref="Q24">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7146</tstamp>
+    </comp>
+    <comp ref="Q23">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F714C</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7154</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F715B</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7171</tstamp>
+    </comp>
+    <comp ref="R86">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7178</tstamp>
+    </comp>
+    <comp ref="U26">
+      <value>HY2213-BB3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7181</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>SLS2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SLS2302" part="SLS2302" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7187</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F71A2</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F71A9</tstamp>
+    </comp>
+    <comp ref="R100">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F71C0</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F71C6</tstamp>
+    </comp>
+    <comp ref="IC13">
+      <value>DW01A-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="DW01A" part="DW01A-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F71D6</tstamp>
+    </comp>
+    <comp ref="Q26">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F71DF</tstamp>
+    </comp>
+    <comp ref="Q25">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F71E5</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F71ED</tstamp>
+    </comp>
+    <comp ref="R94">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F71F4</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F720A</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606A2693</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.47uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AC0BF0</tstamp>
+    </comp>
+    <comp ref="Q27">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B441A0</tstamp>
+    </comp>
+    <comp ref="R95">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BCBF04</tstamp>
+    </comp>
+    <comp ref="R88">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FF3604</tstamp>
+    </comp>
+    <comp ref="R96">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129A518</tstamp>
+    </comp>
+    <comp ref="R97">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BB000D</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>510K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62245E6A</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62851A76</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62851FBB</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>630C8C8B</tstamp>
+    </comp>
+    <comp ref="Q40">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>630C9FD3</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634362AD</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>4mΩ</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="P">2W</field>
+        <field name="detail">Current Sence R</field>
+        <field name="字段5">R004</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64B73EB2</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>4mΩ</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="P">2W</field>
+        <field name="detail">Current Sence R</field>
+        <field name="字段5">R004</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64623BA4</tstamp>
+    </comp>
+    <comp ref="Q28">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>650B4E1D</tstamp>
+    </comp>
+    <comp ref="Q29">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>651EFC0F</tstamp>
+    </comp>
+    <comp ref="Q30">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6528338D</tstamp>
+    </comp>
+    <comp ref="Q31">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>657CDF85</tstamp>
+    </comp>
+    <comp ref="Q32">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>657CDF8C</tstamp>
+    </comp>
+    <comp ref="Q33">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>657CDF93</tstamp>
+    </comp>
+    <comp ref="Q34">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65EA81A4</tstamp>
+    </comp>
+    <comp ref="Q35">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65EA81AB</tstamp>
+    </comp>
+    <comp ref="Q36">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65EA81B2</tstamp>
+    </comp>
+    <comp ref="Q37">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65EA81C9</tstamp>
+    </comp>
+    <comp ref="Q38">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65EA81D0</tstamp>
+    </comp>
+    <comp ref="Q39">
+      <value>P75N02LD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="字段4">25V 75A 5mR</field>
+      </fields>
+      <libsource lib="p75n02ld" part="P75N02LD" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65EA81D7</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6718CCB2</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>672095AC</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67302276</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6737EA64</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67477951</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67477958</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67570F2F</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67570F36</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6766A33B</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6766A342</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67763AED</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67763AF4</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6785CAA5</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6785CAAC</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6795615F</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67956166</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67A4F69D</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67A4F6A4</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67B48CA1</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67B48CA8</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67C41EDB</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67C41EE2</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67D3B145</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67D3B14C</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67E4DEFE</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>B+</value>
+      <footprint>SolderWirePad_1x01_SMD_5x5mm:SolderWirePad_1x01_SMD_5x5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>684906B8</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>B-</value>
+      <footprint>SolderWirePad_1x01_SMD_5x5mm:SolderWirePad_1x01_SMD_5x5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>686233CF</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>P-</value>
+      <footprint>SolderWirePad_1x01_SMD_5x5mm:SolderWirePad_1x01_SMD_5x5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6871C03A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_14</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="字段4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="CONN_14" description="Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  &lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/116&quot;&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/553&quot;&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/115&quot;&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/117&quot;&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/743&quot;&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/search/results?term=Screw+Terminals&quot;&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11375&quot;&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11367&quot;&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/categories/141&quot;&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt;   Molex polarized connector foot print use with SKU : PRT-08231 with associated crimp pins and housings. 1MM SMD Version SKU: PRT-10208 NOTES ON THE VARIANTS LOCK and LOCK_LONGPADS...This footprint was designed to help hold the alignment of a through-hole component (i.e.  6-pin header) while soldering it into place. You may notice that each hole has been shifted either up or down by 0.005 of an inch from it's more standard position (which is a perfectly straight line).  This slight alteration caused the pins (the squares in the middle) to touch the edges of the holes.  Because they are alternating, it causes a &quot;brace&quot; to hold the component in place.  0.005 has proven to be the perfect amount of &quot;off-center&quot; position when using our standard breakaway headers. Although looks a little odd when you look at the bare footprint, once you have a header in there, the alteration is very hard to notice.  Also,if you push a header all the way into place, it is covered up entirely on the bottom side."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68ABE714</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>P+</value>
+      <footprint>SolderWirePad_1x01_SMD_5x5mm:SolderWirePad_1x01_SMD_5x5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6911B304</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="DW01A" part="DW01A-G">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">DW01A-G</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OD" type="output"/>
+        <pin num="2" name="CS" type="output"/>
+        <pin num="3" name="OC" type="output"/>
+        <pin num="5" name="VCC" type="output"/>
+        <pin num="6" name="GND" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HY2213-BB3A" part="HY2213-BB3A">
+      <docs>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HY2213-BB3A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
+      </fields>
+      <pins>
+        <pin num="2" name="VDD" type="input"/>
+        <pin num="3" name="VSS" type="input"/>
+        <pin num="6" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SLS2302" part="SLS2302">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SLS2302</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="CONN_14">
+      <description>Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  &lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/116"&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/553"&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/115"&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/117"&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/743"&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/search/results?term=Screw+Terminals"&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11375"&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11367"&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/categories/141"&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt;   Molex polarized connector foot print use with SKU : PRT-08231 with associated crimp pins and housings. 1MM SMD Version SKU: PRT-10208 NOTES ON THE VARIANTS LOCK and LOCK_LONGPADS...This footprint was designed to help hold the alignment of a through-hole component (i.e.  6-pin header) while soldering it into place. You may notice that each hole has been shifted either up or down by 0.005 of an inch from it's more standard position (which is a perfectly straight line).  This slight alteration caused the pins (the squares in the middle) to touch the edges of the holes.  Because they are alternating, it causes a "brace" to hold the component in place.  0.005 has proven to be the perfect amount of "off-center" position when using our standard breakaway headers. Although looks a little odd when you look at the bare footprint, once you have a header in there, the alteration is very hard to notice.  Also,if you push a header all the way into place, it is covered up entirely on the bottom side.</description>
+      <footprints>
+        <fp>*1X14*</fp>
+        <fp>*1X14_LOCK*</fp>
+        <fp>*1X14_LOCK_LONGPADS*</fp>
+        <fp>*1X14-LONGPADS*</fp>
+        <fp>*1X14_NO_SILK*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_14</field>
+        <field name="Footprint">1X14</field>
+        <field name="字段4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC807">
+      <aliases>
+        <alias>BC808</alias>
+        <alias>BC856</alias>
+        <alias>BC857</alias>
+        <alias>BC858</alias>
+        <alias>BC859</alias>
+        <alias>BC860</alias>
+        <alias>MMBT3906</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, PNP Transistor, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC807.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC807</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC817.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="p75n02ld" part="P75N02LD">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">P75N02LD</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sd04-rescue" part="RESISTOR0805-SparkFun-Resistors">
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR0805-SparkFun-Resistors</field>
+        <field name="Footprint">0805</field>
+        <field name="字段4"> </field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="DW01A">
+      <uri>D:\00_Workspace\800_PCB\191212_shark04_dw01/99_others/DW01A/DW01A.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="HY2213-BB3A">
+      <uri>D:\00_Workspace\800_PCB\191212_shark04_dw01/99_others/HY2213/HY2213-BB3A.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="SLS2302">
+      <uri>D:\00_Workspace\800_PCB\191212_shark04_dw01/99_others/SLS2302/SLS2302.lib</uri>
+    </library>
+    <library logical="SparkFun-Connectors">
+      <uri>E:/10_Resource/650_PCB_Library/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Connectors.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="p75n02ld">
+      <uri>D:\00_Workspace\800_PCB\191212_shark04_dw01/99_others/P75N02LD/p75n02ld.lib</uri>
+    </library>
+    <library logical="sd04-rescue">
+      <uri>D:\00_Workspace\800_PCB\191212_shark04_dw01/sd04-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C26-Pad1)">
+      <node ref="U25" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R114" pin="2"/>
+    </net>
+    <net code="2" name="Net-(U22-Pad1)">
+      <node ref="U25" pin="6"/>
+      <node ref="U22" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R104-Pad2)">
+      <node ref="R104" pin="2"/>
+      <node ref="U22" pin="3"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q23-Pad1)">
+      <node ref="R91" pin="2"/>
+      <node ref="Q23" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q24-Pad1)">
+      <node ref="R92" pin="2"/>
+      <node ref="Q24" pin="1"/>
+    </net>
+    <net code="6" name="Net-(IC12-Pad3)">
+      <node ref="R91" pin="1"/>
+      <node ref="IC12" pin="3"/>
+    </net>
+    <net code="7" name="Net-(IC12-Pad1)">
+      <node ref="R92" pin="1"/>
+      <node ref="IC12" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1"/>
+      <node ref="IC12" pin="5"/>
+      <node ref="R99" pin="2"/>
+    </net>
+    <net code="9" name="Net-(Q21-Pad1)">
+      <node ref="R89" pin="2"/>
+      <node ref="Q21" pin="1"/>
+    </net>
+    <net code="10" name="Net-(IC11-Pad1)">
+      <node ref="R90" pin="1"/>
+      <node ref="IC11" pin="1"/>
+    </net>
+    <net code="11" name="Net-(Q22-Pad1)">
+      <node ref="R90" pin="2"/>
+      <node ref="Q22" pin="1"/>
+    </net>
+    <net code="12" name="Net-(IC11-Pad3)">
+      <node ref="R89" pin="1"/>
+      <node ref="IC11" pin="3"/>
+    </net>
+    <net code="13" name="/S3OC">
+      <node ref="Q21" pin="2"/>
+      <node ref="R82" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="14" name="/S3OD">
+      <node ref="R85" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="Q22" pin="3"/>
+    </net>
+    <net code="15" name="Net-(IC13-Pad1)">
+      <node ref="R94" pin="1"/>
+      <node ref="IC13" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1"/>
+      <node ref="R100" pin="2"/>
+      <node ref="IC13" pin="5"/>
+    </net>
+    <net code="17" name="Net-(IC13-Pad3)">
+      <node ref="IC13" pin="3"/>
+      <node ref="R93" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1"/>
+      <node ref="R115" pin="2"/>
+      <node ref="U26" pin="2"/>
+    </net>
+    <net code="19" name="Net-(U23-Pad1)">
+      <node ref="U23" pin="1"/>
+      <node ref="U26" pin="6"/>
+    </net>
+    <net code="20" name="Net-(R105-Pad2)">
+      <node ref="R105" pin="2"/>
+      <node ref="R109" pin="2"/>
+      <node ref="U23" pin="3"/>
+    </net>
+    <net code="21" name="CV1">
+      <node ref="C23" pin="2"/>
+      <node ref="IC12" pin="6"/>
+      <node ref="Q26" pin="2"/>
+      <node ref="Q25" pin="3"/>
+      <node ref="IC12" pin="2"/>
+      <node ref="R100" pin="1"/>
+      <node ref="R115" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R105" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="U22" pin="2"/>
+      <node ref="U25" pin="3"/>
+    </net>
+    <net code="22" name="Net-(Q26-Pad1)">
+      <node ref="R94" pin="2"/>
+      <node ref="Q26" pin="1"/>
+    </net>
+    <net code="23" name="Net-(Q25-Pad1)">
+      <node ref="Q25" pin="1"/>
+      <node ref="R93" pin="2"/>
+    </net>
+    <net code="24" name="Net-(Q26-Pad3)">
+      <node ref="Q26" pin="3"/>
+      <node ref="R87" pin="2"/>
+      <node ref="R86" pin="1"/>
+    </net>
+    <net code="25" name="Net-(Q23-Pad2)">
+      <node ref="Q23" pin="2"/>
+      <node ref="R82" pin="1"/>
+      <node ref="R83" pin="2"/>
+    </net>
+    <net code="26" name="Net-(Q24-Pad3)">
+      <node ref="R85" pin="1"/>
+      <node ref="Q24" pin="3"/>
+      <node ref="R86" pin="2"/>
+    </net>
+    <net code="27" name="Net-(IC10-Pad3)">
+      <node ref="IC10" pin="3"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="28" name="Net-(IC10-Pad1)">
+      <node ref="IC10" pin="1"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C10-Pad1)">
+      <node ref="R51" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="IC10" pin="5"/>
+    </net>
+    <net code="30" name="Net-(Q20-Pad1)">
+      <node ref="R41" pin="2"/>
+      <node ref="Q20" pin="1"/>
+    </net>
+    <net code="31" name="Net-(Q19-Pad1)">
+      <node ref="Q19" pin="1"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="32" name="Net-(Q18-Pad3)">
+      <node ref="Q18" pin="3"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="33" name="CV3">
+      <node ref="J1" pin="4"/>
+      <node ref="R106" pin="2"/>
+      <node ref="R113" pin="1"/>
+      <node ref="R98" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R107" pin="1"/>
+      <node ref="R103" pin="1"/>
+      <node ref="U10" pin="2"/>
+      <node ref="R110" pin="1"/>
+      <node ref="U20" pin="3"/>
+      <node ref="IC10" pin="6"/>
+      <node ref="IC10" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Q21" pin="3"/>
+      <node ref="Q22" pin="2"/>
+    </net>
+    <net code="34" name="Net-(U10-Pad1)">
+      <node ref="U20" pin="6"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Q17-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q17" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="36" name="Net-(IC9-Pad3)">
+      <node ref="R38" pin="1"/>
+      <node ref="IC9" pin="3"/>
+    </net>
+    <net code="37" name="Net-(IC9-Pad1)">
+      <node ref="IC9" pin="1"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="38" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="R81" pin="2"/>
+      <node ref="U20" pin="2"/>
+    </net>
+    <net code="39" name="Net-(R61-Pad2)">
+      <node ref="R61" pin="2"/>
+      <node ref="U10" pin="3"/>
+      <node ref="R71" pin="2"/>
+    </net>
+    <net code="40" name="Net-(R103-Pad2)">
+      <node ref="U21" pin="3"/>
+      <node ref="R103" pin="2"/>
+      <node ref="R107" pin="2"/>
+    </net>
+    <net code="41" name="Net-(C25-Pad1)">
+      <node ref="R113" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U24" pin="2"/>
+    </net>
+    <net code="42" name="Net-(U21-Pad1)">
+      <node ref="U21" pin="1"/>
+      <node ref="U24" pin="6"/>
+    </net>
+    <net code="43" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1"/>
+      <node ref="IC11" pin="5"/>
+      <node ref="R98" pin="2"/>
+    </net>
+    <net code="44" name="CV2">
+      <node ref="J1" pin="3"/>
+      <node ref="IC11" pin="6"/>
+      <node ref="IC11" pin="2"/>
+      <node ref="Q23" pin="3"/>
+      <node ref="R99" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="R108" pin="1"/>
+      <node ref="Q24" pin="2"/>
+      <node ref="R104" pin="1"/>
+      <node ref="R114" pin="1"/>
+      <node ref="U21" pin="2"/>
+      <node ref="U24" pin="3"/>
+      <node ref="C22" pin="2"/>
+    </net>
+    <net code="45" name="Net-(Q8-Pad3)">
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="46" name="Net-(Q20-Pad3)">
+      <node ref="R20" pin="1"/>
+      <node ref="Q20" pin="3"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="47" name="Net-(Q19-Pad2)">
+      <node ref="Q19" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="48" name="Net-(Q11-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="49" name="FETSTACK-S2">
+      <node ref="Q34" pin="3"/>
+      <node ref="R116" pin="2"/>
+      <node ref="Q36" pin="3"/>
+      <node ref="Q35" pin="3"/>
+      <node ref="Q40" pin="2"/>
+      <node ref="H3" pin="1"/>
+      <node ref="R111" pin="1"/>
+      <node ref="R112" pin="2"/>
+      <node ref="Q37" pin="3"/>
+      <node ref="Q38" pin="3"/>
+      <node ref="Q39" pin="3"/>
+    </net>
+    <net code="50" name="FETSTACK-G2">
+      <node ref="R110" pin="2"/>
+      <node ref="Q37" pin="1"/>
+      <node ref="Q38" pin="1"/>
+      <node ref="Q36" pin="1"/>
+      <node ref="Q35" pin="1"/>
+      <node ref="Q39" pin="1"/>
+      <node ref="Q34" pin="1"/>
+      <node ref="Q40" pin="3"/>
+      <node ref="R112" pin="1"/>
+    </net>
+    <net code="51" name="FETSTACK-G1">
+      <node ref="Q29" pin="1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="Q33" pin="1"/>
+      <node ref="Q28" pin="1"/>
+      <node ref="Q32" pin="1"/>
+      <node ref="Q27" pin="3"/>
+      <node ref="R88" pin="1"/>
+      <node ref="Q30" pin="1"/>
+      <node ref="Q31" pin="1"/>
+    </net>
+    <net code="52" name="CV5">
+      <node ref="R70" pin="1"/>
+      <node ref="R60" pin="1"/>
+      <node ref="R80" pin="1"/>
+      <node ref="IC8" pin="2"/>
+      <node ref="IC8" pin="6"/>
+      <node ref="Q17" pin="3"/>
+      <node ref="C18" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="Q18" pin="2"/>
+      <node ref="R50" pin="1"/>
+      <node ref="U18" pin="3"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="53" name="CV4">
+      <node ref="R51" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="Q19" pin="3"/>
+      <node ref="Q20" pin="2"/>
+      <node ref="IC9" pin="2"/>
+      <node ref="IC9" pin="6"/>
+      <node ref="R81" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R71" pin="1"/>
+      <node ref="R61" pin="1"/>
+      <node ref="U19" pin="3"/>
+      <node ref="U9" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="54" name="B+">
+      <node ref="Q2" pin="2"/>
+      <node ref="J1" pin="14"/>
+      <node ref="R62" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R72" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="55" name="CV12">
+      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U11" pin="3"/>
+      <node ref="J1" pin="13"/>
+      <node ref="R63" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R53" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="R73" pin="1"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="56" name="CV11">
+      <node ref="C12" pin="2"/>
+      <node ref="U12" pin="3"/>
+      <node ref="R74" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R44" pin="1"/>
+      <node ref="R64" pin="1"/>
+      <node ref="R54" pin="1"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="57" name="CV10">
+      <node ref="R75" pin="1"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="J1" pin="11"/>
+      <node ref="U13" pin="3"/>
+      <node ref="R65" pin="1"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R55" pin="1"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="58" name="CV9">
+      <node ref="Q10" pin="2"/>
+      <node ref="R46" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="IC4" pin="6"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U14" pin="3"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R66" pin="1"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="J1" pin="10"/>
+      <node ref="R76" pin="1"/>
+      <node ref="IC4" pin="2"/>
+    </net>
+    <net code="59" name="CV6">
+      <node ref="Q15" pin="3"/>
+      <node ref="J1" pin="7"/>
+      <node ref="R49" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="IC7" pin="2"/>
+      <node ref="U17" pin="3"/>
+      <node ref="R79" pin="1"/>
+      <node ref="R69" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="Q16" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="IC7" pin="6"/>
+    </net>
+    <net code="60" name="CV8">
+      <node ref="C15" pin="2"/>
+      <node ref="U15" pin="3"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J1" pin="9"/>
+      <node ref="R57" pin="1"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="R67" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R77" pin="1"/>
+      <node ref="IC5" pin="6"/>
+      <node ref="IC5" pin="2"/>
+    </net>
+    <net code="61" name="CV7">
+      <node ref="J1" pin="8"/>
+      <node ref="R68" pin="1"/>
+      <node ref="R58" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="IC6" pin="2"/>
+      <node ref="IC6" pin="6"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U16" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R78" pin="1"/>
+      <node ref="R48" pin="1"/>
+      <node ref="Q13" pin="3"/>
+      <node ref="Q14" pin="2"/>
+    </net>
+    <net code="62" name="Net-(R59-Pad2)">
+      <node ref="R69" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="63" name="Net-(C21-Pad1)">
+      <node ref="R95" pin="2"/>
+      <node ref="R96" pin="1"/>
+      <node ref="Q27" pin="1"/>
+      <node ref="R87" pin="1"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="64" name="Net-(IC13-Pad2)">
+      <node ref="R97" pin="1"/>
+      <node ref="IC13" pin="2"/>
+    </net>
+    <net code="65" name="Net-(Q25-Pad2)">
+      <node ref="R84" pin="2"/>
+      <node ref="Q25" pin="2"/>
+      <node ref="R83" pin="1"/>
+    </net>
+    <net code="66" name="Net-(Q3-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="67" name="FETSTACK-S1">
+      <node ref="Q28" pin="3"/>
+      <node ref="Q29" pin="3"/>
+      <node ref="Q30" pin="3"/>
+      <node ref="Q31" pin="3"/>
+      <node ref="R97" pin="2"/>
+      <node ref="Q32" pin="3"/>
+      <node ref="Q33" pin="3"/>
+      <node ref="R102" pin="2"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="68" name="FETSTACK-D12">
+      <node ref="Q38" pin="2"/>
+      <node ref="Q39" pin="2"/>
+      <node ref="Q30" pin="2"/>
+      <node ref="Q37" pin="2"/>
+      <node ref="Q29" pin="2"/>
+      <node ref="Q33" pin="2"/>
+      <node ref="Q34" pin="2"/>
+      <node ref="Q35" pin="2"/>
+      <node ref="Q36" pin="2"/>
+      <node ref="Q28" pin="2"/>
+      <node ref="Q32" pin="2"/>
+      <node ref="Q31" pin="2"/>
+      <node ref="R96" pin="2"/>
+    </net>
+    <net code="69" name="B-">
+      <node ref="C27" pin="2"/>
+      <node ref="U26" pin="3"/>
+      <node ref="U23" pin="2"/>
+      <node ref="H2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="IC13" pin="6"/>
+      <node ref="Q27" pin="2"/>
+      <node ref="R88" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R95" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="R111" pin="2"/>
+    </net>
+    <net code="70" name="Net-(Q40-Pad1)">
+      <node ref="R84" pin="1"/>
+      <node ref="R116" pin="1"/>
+      <node ref="Q40" pin="1"/>
+    </net>
+    <net code="71" name="Net-(Q6-Pad3)">
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="72" name="Net-(Q5-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="73" name="Net-(IC3-Pad3)">
+      <node ref="IC3" pin="3"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="74" name="Net-(IC3-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="75" name="Net-(Q6-Pad1)">
+      <node ref="R27" pin="2"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="76" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="77" name="Net-(R55-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="R65" pin="2"/>
+      <node ref="R55" pin="2"/>
+    </net>
+    <net code="78" name="Net-(U14-Pad6)">
+      <node ref="U4" pin="1"/>
+      <node ref="U14" pin="6"/>
+    </net>
+    <net code="79" name="Net-(C14-Pad1)">
+      <node ref="U14" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R75" pin="2"/>
+    </net>
+    <net code="80" name="Net-(U13-Pad6)">
+      <node ref="U3" pin="1"/>
+      <node ref="U13" pin="6"/>
+    </net>
+    <net code="81" name="Net-(C3-Pad1)">
+      <node ref="R44" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="IC3" pin="5"/>
+    </net>
+    <net code="82" name="Net-(C13-Pad1)">
+      <node ref="R74" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R54-Pad2)">
+      <node ref="U3" pin="3"/>
+      <node ref="R54" pin="2"/>
+      <node ref="R64" pin="2"/>
+    </net>
+    <net code="84" name="Net-(R56-Pad2)">
+      <node ref="R66" pin="2"/>
+      <node ref="R56" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="85" name="Net-(U15-Pad6)">
+      <node ref="U5" pin="1"/>
+      <node ref="U15" pin="6"/>
+    </net>
+    <net code="86" name="Net-(C15-Pad1)">
+      <node ref="U15" pin="2"/>
+      <node ref="R76" pin="2"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="87" name="Net-(Q7-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="88" name="Net-(IC4-Pad3)">
+      <node ref="R28" pin="1"/>
+      <node ref="IC4" pin="3"/>
+    </net>
+    <net code="89" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R45" pin="2"/>
+      <node ref="IC4" pin="5"/>
+    </net>
+    <net code="90" name="Net-(IC4-Pad1)">
+      <node ref="IC4" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="91" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="92" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="93" name="Net-(IC1-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="94" name="Net-(Q2-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="95" name="Net-(Q1-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="96" name="Net-(IC1-Pad3)">
+      <node ref="R22" pin="1"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="97" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="98" name="Net-(R53-Pad2)">
+      <node ref="R53" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R63" pin="2"/>
+    </net>
+    <net code="99" name="Net-(U12-Pad6)">
+      <node ref="U2" pin="1"/>
+      <node ref="U12" pin="6"/>
+    </net>
+    <net code="100" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="101" name="Net-(C11-Pad1)">
+      <node ref="U11" pin="2"/>
+      <node ref="R72" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="102" name="Net-(R52-Pad2)">
+      <node ref="R52" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R62" pin="2"/>
+    </net>
+    <net code="103" name="Net-(U1-Pad1)">
+      <node ref="U11" pin="6"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="104" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R42" pin="2"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="105" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="106" name="Net-(IC2-Pad3)">
+      <node ref="IC2" pin="3"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="107" name="Net-(IC2-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="108" name="Net-(Q4-Pad1)">
+      <node ref="R25" pin="2"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="109" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="110" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="U12" pin="2"/>
+      <node ref="R73" pin="2"/>
+    </net>
+    <net code="111" name="Net-(C2-Pad1)">
+      <node ref="R43" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="112" name="Net-(C18-Pad1)">
+      <node ref="R79" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U18" pin="2"/>
+    </net>
+    <net code="113" name="Net-(U18-Pad6)">
+      <node ref="U8" pin="1"/>
+      <node ref="U18" pin="6"/>
+    </net>
+    <net code="114" name="Net-(IC8-Pad1)">
+      <node ref="IC8" pin="1"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="115" name="Net-(Q15-Pad1)">
+      <node ref="Q15" pin="1"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="116" name="Net-(Q16-Pad3)">
+      <node ref="R18" pin="1"/>
+      <node ref="Q16" pin="3"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="117" name="Net-(Q16-Pad1)">
+      <node ref="Q16" pin="1"/>
+      <node ref="R37" pin="2"/>
+    </net>
+    <net code="118" name="Net-(C8-Pad1)">
+      <node ref="R49" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC8" pin="5"/>
+    </net>
+    <net code="119" name="Net-(IC8-Pad3)">
+      <node ref="IC8" pin="3"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="120" name="Net-(IC7-Pad3)">
+      <node ref="IC7" pin="3"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="121" name="Net-(IC7-Pad1)">
+      <node ref="IC7" pin="1"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="122" name="Net-(Q14-Pad1)">
+      <node ref="Q14" pin="1"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="123" name="Net-(Q13-Pad1)">
+      <node ref="Q13" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="124" name="Net-(Q14-Pad3)">
+      <node ref="R18" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="Q14" pin="3"/>
+    </net>
+    <net code="125" name="Net-(Q13-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="126" name="Net-(C9-Pad1)">
+      <node ref="R50" pin="2"/>
+      <node ref="IC9" pin="5"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="127" name="Net-(C19-Pad1)">
+      <node ref="R80" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U19" pin="2"/>
+    </net>
+    <net code="128" name="Net-(U19-Pad6)">
+      <node ref="U9" pin="1"/>
+      <node ref="U19" pin="6"/>
+    </net>
+    <net code="129" name="Net-(R60-Pad2)">
+      <node ref="U9" pin="3"/>
+      <node ref="R60" pin="2"/>
+      <node ref="R70" pin="2"/>
+    </net>
+    <net code="130" name="Net-(Q18-Pad1)">
+      <node ref="R39" pin="2"/>
+      <node ref="Q18" pin="1"/>
+    </net>
+    <net code="131" name="Net-(Q17-Pad1)">
+      <node ref="R38" pin="2"/>
+      <node ref="Q17" pin="1"/>
+    </net>
+    <net code="132" name="Net-(Q15-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="133" name="Net-(R57-Pad2)">
+      <node ref="U6" pin="3"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R67" pin="2"/>
+    </net>
+    <net code="134" name="Net-(U16-Pad6)">
+      <node ref="U6" pin="1"/>
+      <node ref="U16" pin="6"/>
+    </net>
+    <net code="135" name="Net-(C16-Pad1)">
+      <node ref="U16" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R77" pin="2"/>
+    </net>
+    <net code="136" name="Net-(Q9-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="137" name="Net-(C6-Pad1)">
+      <node ref="IC6" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R47" pin="2"/>
+    </net>
+    <net code="138" name="Net-(Q10-Pad1)">
+      <node ref="R31" pin="2"/>
+      <node ref="Q10" pin="1"/>
+    </net>
+    <net code="139" name="Net-(IC5-Pad3)">
+      <node ref="R30" pin="1"/>
+      <node ref="IC5" pin="3"/>
+    </net>
+    <net code="140" name="Net-(IC5-Pad1)">
+      <node ref="IC5" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="141" name="Net-(Q10-Pad3)">
+      <node ref="Q10" pin="3"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="142" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="IC5" pin="5"/>
+      <node ref="R46" pin="2"/>
+    </net>
+    <net code="143" name="Net-(Q9-Pad1)">
+      <node ref="R30" pin="2"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="144" name="Net-(R58-Pad2)">
+      <node ref="U7" pin="3"/>
+      <node ref="R68" pin="2"/>
+      <node ref="R58" pin="2"/>
+    </net>
+    <net code="145" name="Net-(C17-Pad1)">
+      <node ref="R78" pin="2"/>
+      <node ref="U17" pin="2"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="146" name="Net-(U17-Pad6)">
+      <node ref="U17" pin="6"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="147" name="Net-(C7-Pad1)">
+      <node ref="IC7" pin="5"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="148" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="149" name="Net-(Q12-Pad1)">
+      <node ref="R33" pin="2"/>
+      <node ref="Q12" pin="1"/>
+    </net>
+    <net code="150" name="Net-(IC6-Pad3)">
+      <node ref="IC6" pin="3"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="151" name="Net-(IC6-Pad1)">
+      <node ref="IC6" pin="1"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="152" name="Net-(Q12-Pad3)">
+      <node ref="R17" pin="2"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="R16" pin="1"/>
+    </net>
+  </nets>
+</export>

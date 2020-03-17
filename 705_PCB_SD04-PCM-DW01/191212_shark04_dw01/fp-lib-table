@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name DW01A)(type KiCad)(uri ${KIPRJMOD}/99_others/DW01A)(options "")(descr ""))
+  (lib (name FS8205A)(type KiCad)(uri ${KIPRJMOD}/99_others/FS8205A)(options "")(descr ""))
+  (lib (name SolderWirePad_1x01_SMD_5x5mm)(type KiCad)(uri ${KIPRJMOD}/99_others/SolderWirePad_1x01_SMD_5x5mm.pretty)(options "")(descr ""))
+  (lib (name 99_others)(type KiCad)(uri ${KIPRJMOD}/99_others)(options "")(descr ""))
+)
